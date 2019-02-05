@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::KullaniciController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a55aa1a59b956717dffbe0276caf8e8ee" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.KullaniciController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="16" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a04e7d96cd6d0fd5c3e7c5740d4acbefe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KullaniciController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="19" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a99aa942746bca617ed35e51eabe601ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KullaniciController.Ara</definition>
+        <argsstring>(string q)</argsstring>
+        <name>Ara</name>
+        <param>
+          <type>string</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="25" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="25" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a81ef8ae5b76d5f652103ab4a5a96b436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KullaniciController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="40" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a9c8e4395854897904300a42729e7f5e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KullaniciController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;KullaniciId,KullaniciAdi,Sifre,RoleId,BolumId,Ad,Soyad&quot;)] Kullanicilar kullanicilar)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;KullaniciId,KullaniciAdi,Sifre,RoleId,BolumId,Ad,Soyad&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_kullanicilar" kindref="compound">Kullanicilar</ref></type>
+          <declname>kullanicilar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="50" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="50" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a4ead2cba4046cbc5464ceb1ac5763aba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KullaniciController.Duzenle</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="75" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="75" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1ab70dbc9d251a76db585ed8ffe9df1733" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KullaniciController.Duzenle</definition>
+        <argsstring>([Bind(Include=&quot;KullaniciId,KullaniciAdi,Sifre,RoleId,BolumId,Ad,Soyad&quot;)] Kullanicilar kullanicilar)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <attributes>[Bind(Include=&quot;KullaniciId,KullaniciAdi,Sifre,RoleId,BolumId,Ad,Soyad&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_kullanicilar" kindref="compound">Kullanicilar</ref></type>
+          <declname>kullanicilar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="95" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="95" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a5dcfe887e37f2ece3c46c317224edcc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.KullaniciController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KullaniciController.cs" line="125" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="125" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>StokOtomasyanu.Controllers.KullaniciController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>StokOtomasyanu.Controllers.KullaniciController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/KullaniciController.cs" line="15" column="1" bodyfile="Controllers/KullaniciController.cs" bodystart="14" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a99aa942746bca617ed35e51eabe601ce" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Ara</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a55aa1a59b956717dffbe0276caf8e8ee" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a4ead2cba4046cbc5464ceb1ac5763aba" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1ab70dbc9d251a76db585ed8ffe9df1733" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a04e7d96cd6d0fd5c3e7c5740d4acbefe" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a5dcfe887e37f2ece3c46c317224edcc6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a81ef8ae5b76d5f652103ab4a5a96b436" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a9c8e4395854897904300a42729e7f5e5" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KullaniciController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

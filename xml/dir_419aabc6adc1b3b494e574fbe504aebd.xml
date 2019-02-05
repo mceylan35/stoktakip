@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_419aabc6adc1b3b494e574fbe504aebd" kind="dir">
+    <compoundname>Controllers</compoundname>
+    <innerfile refid="_atik_controller_8cs">AtikController.cs</innerfile>
+    <innerfile refid="_bolum_controller_8cs">BolumController.cs</innerfile>
+    <innerfile refid="_bolum_zimmet_controller_8cs">BolumZimmetController.cs</innerfile>
+    <innerfile refid="_kategori_controller_8cs">KategoriController.cs</innerfile>
+    <innerfile refid="_kisi_zimmet_controller_8cs">KisiZimmetController.cs</innerfile>
+    <innerfile refid="_kullanici_controller_8cs">KullaniciController.cs</innerfile>
+    <innerfile refid="_security_controller_8cs">SecurityController.cs</innerfile>
+    <innerfile refid="_tedarikci_controller_8cs">TedarikciController.cs</innerfile>
+    <innerfile refid="_urun_controller_8cs">UrunController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/"/>
+  </compounddef>
+</doxygen>

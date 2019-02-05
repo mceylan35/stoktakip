@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1sysdiagram" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::sysdiagram</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sysdiagram_1a1c0a728820b501857858a90cc254eb2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.sysdiagram.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sysdiagram.cs" line="17" column="1" bodyfile="sysdiagram.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sysdiagram_1afb1b3e29d50dccaa1a7dd47fb10319fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.sysdiagram.principal_id</definition>
+        <argsstring></argsstring>
+        <name>principal_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sysdiagram.cs" line="18" column="1" bodyfile="sysdiagram.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sysdiagram_1a9f5c589c51ba01eca5c9759e4384d59b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.sysdiagram.diagram_id</definition>
+        <argsstring></argsstring>
+        <name>diagram_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sysdiagram.cs" line="19" column="1" bodyfile="sysdiagram.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sysdiagram_1a8a747490e07e616953d2a4fd15323e9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.sysdiagram.version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sysdiagram.cs" line="20" column="1" bodyfile="sysdiagram.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sysdiagram_1a6612581b834174a7d3caac8d59845fcf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>byte []</type>
+        <definition>byte [] StokOtomasyanu.sysdiagram.definition</definition>
+        <argsstring></argsstring>
+        <name>definition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sysdiagram.cs" line="21" column="1" bodyfile="sysdiagram.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sysdiagram.cs" line="16" column="1" bodyfile="sysdiagram.cs" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1sysdiagram_1a6612581b834174a7d3caac8d59845fcf" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sysdiagram</scope><name>definition</name></member>
+      <member refid="class_stok_otomasyanu_1_1sysdiagram_1a9f5c589c51ba01eca5c9759e4384d59b" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sysdiagram</scope><name>diagram_id</name></member>
+      <member refid="class_stok_otomasyanu_1_1sysdiagram_1a1c0a728820b501857858a90cc254eb2c" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sysdiagram</scope><name>name</name></member>
+      <member refid="class_stok_otomasyanu_1_1sysdiagram_1afb1b3e29d50dccaa1a7dd47fb10319fd" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sysdiagram</scope><name>principal_id</name></member>
+      <member refid="class_stok_otomasyanu_1_1sysdiagram_1a8a747490e07e616953d2a4fd15323e9a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sysdiagram</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

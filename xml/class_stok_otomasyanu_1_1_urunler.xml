@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_urunler" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Urunler</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1afc98e9dc5a99cbfed826ad2bb547be47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.Urunler.UrunId</definition>
+        <argsstring></argsstring>
+        <name>UrunId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="25" column="1" bodyfile="Urunler.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a922e5118ae50be56e6c2cf6da1d617b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.Urunler.KategoriId</definition>
+        <argsstring></argsstring>
+        <name>KategoriId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="26" column="1" bodyfile="Urunler.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a01e0837c3281db3dddf796cfccead4a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.Urunler.TedarikciId</definition>
+        <argsstring></argsstring>
+        <name>TedarikciId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="27" column="1" bodyfile="Urunler.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a62ffc819f6e3bb0f8ef1fcdabc0a3e92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Urunler.UrunaAdi</definition>
+        <argsstring></argsstring>
+        <name>UrunaAdi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="28" column="1" bodyfile="Urunler.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a227d0d366b4d47d7d5503a1826b8db84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal StokOtomasyanu.Urunler.UrunBirimFiyati</definition>
+        <argsstring></argsstring>
+        <name>UrunBirimFiyati</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="29" column="1" bodyfile="Urunler.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a5a73cdf39d04f7cb09253faf780bcd2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; StokOtomasyanu.Urunler.SatinAlinmaTarihi</definition>
+        <argsstring></argsstring>
+        <name>SatinAlinmaTarihi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="30" column="1" bodyfile="Urunler.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1ad9e0bd3ace3fd5e85c783fa89c7fe04f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.Urunler.Stok</definition>
+        <argsstring></argsstring>
+        <name>Stok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="31" column="1" bodyfile="Urunler.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a297835d27300ecdd90d88f65cdafb844" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool StokOtomasyanu.Urunler.StokDurum</definition>
+        <argsstring></argsstring>
+        <name>StokDurum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="32" column="1" bodyfile="Urunler.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1adba6e1e9ad39b7c3cffc659b40fb59f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.Urunler.BolumID</definition>
+        <argsstring></argsstring>
+        <name>BolumID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="33" column="1" bodyfile="Urunler.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a6527d6d904b3192bd032f5fac2cfcc65" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_stok_otomasyanu_1_1_atiklar" kindref="compound">Atiklar</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Atiklar&gt; StokOtomasyanu.Urunler.Atiklars</definition>
+        <argsstring></argsstring>
+        <name>Atiklars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="36" column="1" bodyfile="Urunler.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a18c7e5cbfbbd558765203dbec91490af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_bolum" kindref="compound">Bolum</ref></type>
+        <definition>virtual Bolum StokOtomasyanu.Urunler.Bolum</definition>
+        <argsstring></argsstring>
+        <name>Bolum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="37" column="1" bodyfile="Urunler.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1a4a09f983b57fd0b6d6d92589661c1082" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_stok_otomasyanu_1_1_bolum_zimmet" kindref="compound">BolumZimmet</ref> &gt;</type>
+        <definition>virtual ICollection&lt;BolumZimmet&gt; StokOtomasyanu.Urunler.BolumZimmets</definition>
+        <argsstring></argsstring>
+        <name>BolumZimmets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="39" column="1" bodyfile="Urunler.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1adb2bb98dd13f0302f197d0126470900b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_kategoriler" kindref="compound">Kategoriler</ref></type>
+        <definition>virtual Kategoriler StokOtomasyanu.Urunler.Kategoriler</definition>
+        <argsstring></argsstring>
+        <name>Kategoriler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="40" column="1" bodyfile="Urunler.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1aeed11187e54fff1df2c4eb21d8d1d6c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_stok_otomasyanu_1_1_kisi_zimmet" kindref="compound">KisiZimmet</ref> &gt;</type>
+        <definition>virtual ICollection&lt;KisiZimmet&gt; StokOtomasyanu.Urunler.KisiZimmets</definition>
+        <argsstring></argsstring>
+        <name>KisiZimmets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="42" column="1" bodyfile="Urunler.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_urunler_1acdccc0e42f2faeb57565ef89031ef1fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_tedarikci" kindref="compound">Tedarikci</ref></type>
+        <definition>virtual Tedarikci StokOtomasyanu.Urunler.Tedarikci</definition>
+        <argsstring></argsstring>
+        <name>Tedarikci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="43" column="1" bodyfile="Urunler.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_urunler_1af8bcfc95f11ffd2fb69e9f6f17a65eaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StokOtomasyanu.Urunler.Urunler</definition>
+        <argsstring>()</argsstring>
+        <name>Urunler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Urunler.cs" line="18" column="1" bodyfile="Urunler.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Urunler.cs" line="16" column="1" bodyfile="Urunler.cs" bodystart="15" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a6527d6d904b3192bd032f5fac2cfcc65" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>Atiklars</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a18c7e5cbfbbd558765203dbec91490af" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>Bolum</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1adba6e1e9ad39b7c3cffc659b40fb59f9" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>BolumID</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a4a09f983b57fd0b6d6d92589661c1082" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>BolumZimmets</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a922e5118ae50be56e6c2cf6da1d617b6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>KategoriId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1adb2bb98dd13f0302f197d0126470900b" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>Kategoriler</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1aeed11187e54fff1df2c4eb21d8d1d6c8" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>KisiZimmets</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a5a73cdf39d04f7cb09253faf780bcd2d" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>SatinAlinmaTarihi</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1ad9e0bd3ace3fd5e85c783fa89c7fe04f" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>Stok</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a297835d27300ecdd90d88f65cdafb844" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>StokDurum</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1acdccc0e42f2faeb57565ef89031ef1fa" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>Tedarikci</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a01e0837c3281db3dddf796cfccead4a6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>TedarikciId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a62ffc819f6e3bb0f8ef1fcdabc0a3e92" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>UrunaAdi</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1a227d0d366b4d47d7d5503a1826b8db84" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>UrunBirimFiyati</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1afc98e9dc5a99cbfed826ad2bb547be47" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>UrunId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_urunler_1af8bcfc95f11ffd2fb69e9f6f17a65eaf" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Urunler</scope><name>Urunler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

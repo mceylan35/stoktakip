@@ -1,0 +1,71 @@
+﻿@model IEnumerable<StokOtomasyanu.Tedarikci>
+
+@{
+    ViewBag.Title = "Tedarikçiler";
+}
+
+<h2>Index</h2>
+
+<p>
+@if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+{
+    @Html.ActionLink("Yeni Ekle", "Yeni", "", htmlAttributes: new {@class = "btn btn-success"})
+}
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Tedarikçi Adı
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TedarikciAdi)
+            </td>
+            <td>
+                @Html.ActionLink("Düzenle", "Duzenle", new { id=item.TedarikciId }, htmlAttributes: new { @class = "btn btn-warning" })
+
+                <a href="#" class="btn btn-danger tedariksil" data-tedarikid="@item.TedarikciId">Sil</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+
+    $(".tedariksil").click(function () {
+        var sonuc=confirm("Kayıt Silinsin mi?");
+        if (sonuc) {
+            var tedarikid = $(this).data("tedarikid");
+            $.ajax({
+                type: "POST",
+                url: "/Tedarikci/Sil/" + tedarikid,
+                success: function(parameters) {
+                    alert("Kayıt Silindi");
+                    window.location.replace("/Tedarikci/Index");
+                },
+                error: function() {
+                    alert("kayıt silme sırasında hata oluştu");
+                }
+
+
+
+            });
+
+        } else {
+            alert("iptal edildi");
+
+        }
+
+    });
+</script>
+
+

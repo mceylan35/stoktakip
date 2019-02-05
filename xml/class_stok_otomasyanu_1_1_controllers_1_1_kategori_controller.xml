@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::KategoriController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1af1151577baef5241000db4387a7474c2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.KategoriController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="16" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6461a7de153f512395199bd436630c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KategoriController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="20" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a8bc8d869bf8fb2572def6fe8a3af84a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KategoriController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="29" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6b9cfe7dbea88e7c0e855646f453dca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KategoriController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;KategoriId,KategoriAdi&quot;)] Kategoriler kategoriler)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;KategoriId,KategoriAdi&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_kategoriler" kindref="compound">Kategoriler</ref></type>
+          <declname>kategoriler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="38" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="38" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a9f12c3b6134838c3030ee80f58baeab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KategoriController.Duzenle</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="62" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="62" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6f13685a3977b91b2d37db921f635f8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KategoriController.Duzenle</definition>
+        <argsstring>([Bind(Include=&quot;KategoriId,KategoriAdi&quot;)] Kategoriler kategoriler)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <attributes>[Bind(Include=&quot;KategoriId,KategoriAdi&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_kategoriler" kindref="compound">Kategoriler</ref></type>
+          <declname>kategoriler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="80" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="80" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a95af421fa7ac207338f78a31716ef329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.KategoriController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KategoriController.cs" line="108" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="108" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>StokOtomasyanu.Controllers.KategoriController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>StokOtomasyanu.Controllers.KategoriController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/KategoriController.cs" line="15" column="1" bodyfile="Controllers/KategoriController.cs" bodystart="14" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1af1151577baef5241000db4387a7474c2" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a9f12c3b6134838c3030ee80f58baeab0" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6f13685a3977b91b2d37db921f635f8e" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6461a7de153f512395199bd436630c9e" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a95af421fa7ac207338f78a31716ef329" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a8bc8d869bf8fb2572def6fe8a3af84a8" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6b9cfe7dbea88e7c0e855646f453dca3" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KategoriController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

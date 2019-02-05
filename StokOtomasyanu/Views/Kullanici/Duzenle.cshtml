@@ -1,0 +1,110 @@
+﻿@model StokOtomasyanu.Kullanicilar
+@{
+    ViewBag.Title = "Düzenle";
+}
+
+<h2>Düzenle</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Kullanicilar</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <p class="text-danger"> @ViewBag.Yanlis</p>
+    @Html.HiddenFor(model => model.KullaniciId)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.KullaniciAdi,"Kullanıcı Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.KullaniciAdi, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.KullaniciAdi, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Sifre,"Şifre", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Sifre, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Sifre, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RoleId, "Rol", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("RoleId", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.RoleId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.BolumId, "Bölüm Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("BolumId", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.BolumId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Ad,"Ad", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Ad, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Ad, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Soyad,"Soyad", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Soyad, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Soyad, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Kaydet" class="btn btn-success" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Geri Dön", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=tr-TR" type="text/javascript"></script>
+<script type="text/javascript">
+    ymaps.ready(init);
+    function init () {
+        var myMap = new ymaps.Map('map', {
+                center: [@ViewBag.Konumx, @ViewBag.Konumy],
+                zoom: 12
+            }),
+            myPlacemark = new ymaps.Placemark([@ViewBag.Konumx, @ViewBag.Konumx], {
+                content: 'Bodrum!',
+                balloonContent: '7th Wonder of World is here!'
+            });
+        myMap.controls
+            .add('searchControl', { left:5, top: 5 })
+            .add('smallZoomControl', { left: 5, top: 165 })
+            .add('typeSelector')
+            .add('mapTools', { left: 5, top: 460 })
+            .add('trafficControl', { left: 270, top: 5 });
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+</head>
+<body>
+<h3>Bodrum's Traffic Jam</h3>
+<div id="map" style="width:600px; height:500px"></div>
+</body>
+</html>

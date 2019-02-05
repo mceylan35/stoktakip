@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_kisi_zimmet" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::KisiZimmet</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kisi_zimmet_1ad3e805634eadc4eb0b17088a448b42bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.KisiZimmet.KisiZimmetId</definition>
+        <argsstring></argsstring>
+        <name>KisiZimmetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KisiZimmet.cs" line="17" column="1" bodyfile="KisiZimmet.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kisi_zimmet_1abe2dd606e4a77e673d1ea8e9bb8ffabb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.KisiZimmet.KisiId</definition>
+        <argsstring></argsstring>
+        <name>KisiId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KisiZimmet.cs" line="18" column="1" bodyfile="KisiZimmet.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kisi_zimmet_1a4e1d5d575a37b58163c34b8db8253dd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.KisiZimmet.UrunId</definition>
+        <argsstring></argsstring>
+        <name>UrunId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KisiZimmet.cs" line="19" column="1" bodyfile="KisiZimmet.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kisi_zimmet_1a9a6b2b241a790e921f1dfa62ef8a4239" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; StokOtomasyanu.KisiZimmet.Durum</definition>
+        <argsstring></argsstring>
+        <name>Durum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KisiZimmet.cs" line="20" column="1" bodyfile="KisiZimmet.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kisi_zimmet_1a31ba2bf919f9af9b566fc4321d0799e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_kullanicilar" kindref="compound">Kullanicilar</ref></type>
+        <definition>virtual Kullanicilar StokOtomasyanu.KisiZimmet.Kullanicilar</definition>
+        <argsstring></argsstring>
+        <name>Kullanicilar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KisiZimmet.cs" line="22" column="1" bodyfile="KisiZimmet.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kisi_zimmet_1ae25b1cbf289c8cfeae8d6427b355a616" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref></type>
+        <definition>virtual Urunler StokOtomasyanu.KisiZimmet.Urunler</definition>
+        <argsstring></argsstring>
+        <name>Urunler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KisiZimmet.cs" line="23" column="1" bodyfile="KisiZimmet.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="KisiZimmet.cs" line="16" column="1" bodyfile="KisiZimmet.cs" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1a9a6b2b241a790e921f1dfa62ef8a4239" prot="public" virt="non-virtual"><scope>StokOtomasyanu::KisiZimmet</scope><name>Durum</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1abe2dd606e4a77e673d1ea8e9bb8ffabb" prot="public" virt="non-virtual"><scope>StokOtomasyanu::KisiZimmet</scope><name>KisiId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1ad3e805634eadc4eb0b17088a448b42bd" prot="public" virt="non-virtual"><scope>StokOtomasyanu::KisiZimmet</scope><name>KisiZimmetId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1a31ba2bf919f9af9b566fc4321d0799e1" prot="public" virt="non-virtual"><scope>StokOtomasyanu::KisiZimmet</scope><name>Kullanicilar</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1a4e1d5d575a37b58163c34b8db8253dd5" prot="public" virt="non-virtual"><scope>StokOtomasyanu::KisiZimmet</scope><name>UrunId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1ae25b1cbf289c8cfeae8d6427b355a616" prot="public" virt="non-virtual"><scope>StokOtomasyanu::KisiZimmet</scope><name>Urunler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

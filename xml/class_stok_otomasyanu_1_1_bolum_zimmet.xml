@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_bolum_zimmet" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::BolumZimmet</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_bolum_zimmet_1a4696c012f11d7eab6901286b653e2cd0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.BolumZimmet.BolumZimmetId</definition>
+        <argsstring></argsstring>
+        <name>BolumZimmetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BolumZimmet.cs" line="17" column="1" bodyfile="BolumZimmet.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_bolum_zimmet_1ac16d0b978acec9383500543d7369d6a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.BolumZimmet.BolumId</definition>
+        <argsstring></argsstring>
+        <name>BolumId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BolumZimmet.cs" line="18" column="1" bodyfile="BolumZimmet.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_bolum_zimmet_1a85db87b22e93bbea757c0765d96dce2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.BolumZimmet.UrunId</definition>
+        <argsstring></argsstring>
+        <name>UrunId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BolumZimmet.cs" line="19" column="1" bodyfile="BolumZimmet.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_bolum_zimmet_1a9a03d11cc955e020cb2fd733bc570d91" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; StokOtomasyanu.BolumZimmet.Durum</definition>
+        <argsstring></argsstring>
+        <name>Durum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BolumZimmet.cs" line="20" column="1" bodyfile="BolumZimmet.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_bolum_zimmet_1a0d258fb01e7868e8033d96c1351febdc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_bolum" kindref="compound">Bolum</ref></type>
+        <definition>virtual Bolum StokOtomasyanu.BolumZimmet.Bolum</definition>
+        <argsstring></argsstring>
+        <name>Bolum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BolumZimmet.cs" line="22" column="1" bodyfile="BolumZimmet.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_bolum_zimmet_1a0ca04765d53c18ce4dcb7f28a4f34234" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref></type>
+        <definition>virtual Urunler StokOtomasyanu.BolumZimmet.Urunler</definition>
+        <argsstring></argsstring>
+        <name>Urunler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BolumZimmet.cs" line="23" column="1" bodyfile="BolumZimmet.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BolumZimmet.cs" line="16" column="1" bodyfile="BolumZimmet.cs" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a0d258fb01e7868e8033d96c1351febdc" prot="public" virt="non-virtual"><scope>StokOtomasyanu::BolumZimmet</scope><name>Bolum</name></member>
+      <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1ac16d0b978acec9383500543d7369d6a9" prot="public" virt="non-virtual"><scope>StokOtomasyanu::BolumZimmet</scope><name>BolumId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a4696c012f11d7eab6901286b653e2cd0" prot="public" virt="non-virtual"><scope>StokOtomasyanu::BolumZimmet</scope><name>BolumZimmetId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a9a03d11cc955e020cb2fd733bc570d91" prot="public" virt="non-virtual"><scope>StokOtomasyanu::BolumZimmet</scope><name>Durum</name></member>
+      <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a85db87b22e93bbea757c0765d96dce2f" prot="public" virt="non-virtual"><scope>StokOtomasyanu::BolumZimmet</scope><name>UrunId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a0ca04765d53c18ce4dcb7f28a4f34234" prot="public" virt="non-virtual"><scope>StokOtomasyanu::BolumZimmet</scope><name>Urunler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_model1_8_designer_8cs" kind="file" language="C#">
+    <compoundname>Model1.Designer.cs</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>T4<sp/>code<sp/>generation<sp/>is<sp/>enabled<sp/>for<sp/>model<sp/>&apos;C:\Users\Mehmet\source\repos\StokOtomasyanu\StokOtomasyanu\Model1.edmx&apos;.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>enable<sp/>legacy<sp/>code<sp/>generation,<sp/>change<sp/>the<sp/>value<sp/>of<sp/>the<sp/>&apos;Code<sp/>Generation<sp/>Strategy&apos;<sp/>designer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>property<sp/>to<sp/>&apos;Legacy<sp/>ObjectContext&apos;.<sp/>This<sp/>property<sp/>is<sp/>available<sp/>in<sp/>the<sp/>Properties<sp/>Window<sp/>when<sp/>the<sp/>model</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>open<sp/>in<sp/>the<sp/>designer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>no<sp/>context<sp/>and<sp/>entity<sp/>classes<sp/>have<sp/>been<sp/>generated,<sp/>it<sp/>may<sp/>be<sp/>because<sp/>you<sp/>created<sp/>an<sp/>empty<sp/>model<sp/>but</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>have<sp/>not<sp/>yet<sp/>chosen<sp/>which<sp/>version<sp/>of<sp/>Entity<sp/>Framework<sp/>to<sp/>use.<sp/>To<sp/>generate<sp/>a<sp/>context<sp/>class<sp/>and<sp/>entity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>classes<sp/>for<sp/>your<sp/>model,<sp/>open<sp/>the<sp/>model<sp/>in<sp/>the<sp/>designer,<sp/>right-click<sp/>on<sp/>the<sp/>designer<sp/>surface,<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>select<sp/>&apos;Update<sp/>Model<sp/>from<sp/>Database...&apos;,<sp/>&apos;Generate<sp/>Database<sp/>from<sp/>Model...&apos;,<sp/>or<sp/>&apos;Add<sp/>Code<sp/>Generation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Item...&apos;.</highlight></codeline>
+    </programlisting>
+    <location file="Model1.Designer.cs"/>
+  </compounddef>
+</doxygen>

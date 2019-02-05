@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_ad6a59eb70909036e8dfe8a985a59947" kind="dir">
+    <compoundname>Security</compoundname>
+    <innerfile refid="_personel_role_provider_8cs">PersonelRoleProvider.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Security/"/>
+  </compounddef>
+</doxygen>

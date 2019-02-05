@@ -1,0 +1,85 @@
+﻿@model IEnumerable<StokOtomasyanu.Atiklar>
+@{
+    ViewBag.Title = "Atıklar";
+}
+
+<h2>Index</h2>
+
+<p>
+@if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+{
+    @Html.ActionLink("Yeni", "Yeni", "", htmlAttributes: new {@class = "btn btn-success"})
+}
+</p>
+<div id="Grid">
+<table class="table">
+    <tr>
+        <th>
+            Ürün Adı
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Urunler.UrunaAdi)
+            </td>
+            <td>
+               
+           
+                <a href="#" class="btn btn-danger atiksil" data-atikid="@item.AtikId">Sil</a>
+            </td>
+        </tr>
+    }
+
+</table>
+</div>
+@using (Html.BeginForm("Pdf", "Atik", FormMethod.Post))
+{
+    <input type="hidden" name="GridHtml"/>
+    <input class="btn btn-default" type="submit" id="btnSubmit" value="Rapor"/>
+}
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+            $("input[name='GridHtml']").val($("#Grid").html());
+        });
+    });
+</script>
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+
+
+    $(".atiksil").click(function () {
+        var sonuc=confirm("Kayıt Silinsin mi?");
+        if (sonuc) {
+            var atikid = $(this).data("atikid");
+            $.ajax({
+                type: "POST",
+                url: "/Atik/Sil/" + atikid,
+                success: function(parameters) {
+                    alert("Kayıt Silindi");
+                    window.location.replace("/Atik/Index");
+                },
+                error: function() {
+                    alert("kayıt silme sırasında hata oluştu");
+                }
+
+
+
+            });
+
+        } else {
+            alert("iptal edildi");
+
+        }
+
+    });
+</script>
+
+

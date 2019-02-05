@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::sp_helpdiagramdefinition_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result_1a9a4567bec8b336fde7dd91f43066a6b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.sp_helpdiagramdefinition_Result.version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagramdefinition_Result.cs" line="16" column="1" bodyfile="sp_helpdiagramdefinition_Result.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result_1a63ea2822ca217a2e86af105bf610cc9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>byte []</type>
+        <definition>byte [] StokOtomasyanu.sp_helpdiagramdefinition_Result.definition</definition>
+        <argsstring></argsstring>
+        <name>definition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagramdefinition_Result.cs" line="17" column="1" bodyfile="sp_helpdiagramdefinition_Result.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sp_helpdiagramdefinition_Result.cs" line="15" column="1" bodyfile="sp_helpdiagramdefinition_Result.cs" bodystart="14" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result_1a63ea2822ca217a2e86af105bf610cc9b" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagramdefinition_Result</scope><name>definition</name></member>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result_1a9a4567bec8b336fde7dd91f43066a6b6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagramdefinition_Result</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

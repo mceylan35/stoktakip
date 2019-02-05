@@ -1,0 +1,6 @@
+digraph "StokOtomasyanu.C__MigrationHistory"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{StokOtomasyanu.C__Migration\lHistory\n|+ MigrationId\l+ ContextKey\l+ Model\l+ ProductVersion\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Security::PersonelRoleProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RoleProvider</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ac24da730a4131ece8484b2fa9733e6ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string StokOtomasyanu.Security.PersonelRoleProvider.ApplicationName</definition>
+        <argsstring></argsstring>
+        <name>ApplicationName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="11" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a89b93026e2e343f3e41d5973596152c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StokOtomasyanu.Security.PersonelRoleProvider.AddUsersToRoles</definition>
+        <argsstring>(string[] usernames, string[] roleNames)</argsstring>
+        <name>AddUsersToRoles</name>
+        <param>
+          <type>string []</type>
+          <declname>usernames</declname>
+        </param>
+        <param>
+          <type>string []</type>
+          <declname>roleNames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="13" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ae5f07476022efaa2e04e04780fe90a4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StokOtomasyanu.Security.PersonelRoleProvider.CreateRole</definition>
+        <argsstring>(string roleName)</argsstring>
+        <name>CreateRole</name>
+        <param>
+          <type>string</type>
+          <declname>roleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="18" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a96ff981d76e083a9bb57b9237139d094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool StokOtomasyanu.Security.PersonelRoleProvider.DeleteRole</definition>
+        <argsstring>(string roleName, bool throwOnPopulatedRole)</argsstring>
+        <name>DeleteRole</name>
+        <param>
+          <type>string</type>
+          <declname>roleName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwOnPopulatedRole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="23" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a9405afbd0e1f565a6732b661a1da6197" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string []</type>
+        <definition>override string [] StokOtomasyanu.Security.PersonelRoleProvider.FindUsersInRole</definition>
+        <argsstring>(string roleName, string usernameToMatch)</argsstring>
+        <name>FindUsersInRole</name>
+        <param>
+          <type>string</type>
+          <declname>roleName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>usernameToMatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="28" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ac88e722b588a2cb36b50e6e5a4efe0b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string []</type>
+        <definition>override string [] StokOtomasyanu.Security.PersonelRoleProvider.GetAllRoles</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllRoles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="33" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ab7e63c6b9e4f5da49b7c11d7da1f5588" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string []</type>
+        <definition>override string [] StokOtomasyanu.Security.PersonelRoleProvider.GetRolesForUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetRolesForUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="38" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1acd0efddbfbe3745593f73571336c3a8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string []</type>
+        <definition>override string [] StokOtomasyanu.Security.PersonelRoleProvider.GetUsersInRole</definition>
+        <argsstring>(string roleName)</argsstring>
+        <name>GetUsersInRole</name>
+        <param>
+          <type>string</type>
+          <declname>roleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="45" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a9edf99186fe35e7401007341b2771a20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool StokOtomasyanu.Security.PersonelRoleProvider.IsUserInRole</definition>
+        <argsstring>(string username, string roleName)</argsstring>
+        <name>IsUserInRole</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>roleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="50" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1aa706f144e84d0771c29b6711e39ddcbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StokOtomasyanu.Security.PersonelRoleProvider.RemoveUsersFromRoles</definition>
+        <argsstring>(string[] usernames, string[] roleNames)</argsstring>
+        <name>RemoveUsersFromRoles</name>
+        <param>
+          <type>string []</type>
+          <declname>usernames</declname>
+        </param>
+        <param>
+          <type>string []</type>
+          <declname>roleNames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="55" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a2dce2c01ef701ce385415b3d6ae40a5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool StokOtomasyanu.Security.PersonelRoleProvider.RoleExists</definition>
+        <argsstring>(string roleName)</argsstring>
+        <name>RoleExists</name>
+        <param>
+          <type>string</type>
+          <declname>roleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Security/PersonelRoleProvider.cs" line="60" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>StokOtomasyanu.Security.PersonelRoleProvider</label>
+        <link refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>RoleProvider</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="44">
+        <label>StokOtomasyanu.Security.PersonelRoleProvider</label>
+        <link refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>RoleProvider</label>
+      </node>
+    </collaborationgraph>
+    <location file="Security/PersonelRoleProvider.cs" line="10" column="1" bodyfile="Security/PersonelRoleProvider.cs" bodystart="9" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a89b93026e2e343f3e41d5973596152c6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>AddUsersToRoles</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ac24da730a4131ece8484b2fa9733e6ff" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>ApplicationName</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ae5f07476022efaa2e04e04780fe90a4a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>CreateRole</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a96ff981d76e083a9bb57b9237139d094" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>DeleteRole</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a9405afbd0e1f565a6732b661a1da6197" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>FindUsersInRole</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ac88e722b588a2cb36b50e6e5a4efe0b6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>GetAllRoles</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ab7e63c6b9e4f5da49b7c11d7da1f5588" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>GetRolesForUser</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1acd0efddbfbe3745593f73571336c3a8f" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>GetUsersInRole</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a9edf99186fe35e7401007341b2771a20" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>IsUserInRole</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1aa706f144e84d0771c29b6711e39ddcbb" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>RemoveUsersFromRoles</name></member>
+      <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a2dce2c01ef701ce385415b3d6ae40a5c" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Security::PersonelRoleProvider</scope><name>RoleExists</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

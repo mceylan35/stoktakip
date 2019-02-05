@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1sp__helpdiagrams___result" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::sp_helpdiagrams_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1adb07dbad8b1d16524a04adff40ef96e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.sp_helpdiagrams_Result.Database</definition>
+        <argsstring></argsstring>
+        <name>Database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagrams_Result.cs" line="16" column="1" bodyfile="sp_helpdiagrams_Result.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1a6d64dd61b5f8cbea2d6f730150c58257" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.sp_helpdiagrams_Result.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagrams_Result.cs" line="17" column="1" bodyfile="sp_helpdiagrams_Result.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1a078589022ec667d924f57fa750f8f2d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.sp_helpdiagrams_Result.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagrams_Result.cs" line="18" column="1" bodyfile="sp_helpdiagrams_Result.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1ac300ece92372a213fc11781046589831" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.sp_helpdiagrams_Result.Owner</definition>
+        <argsstring></argsstring>
+        <name>Owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagrams_Result.cs" line="19" column="1" bodyfile="sp_helpdiagrams_Result.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1ab90f75222f04da1f706afb2c0d5e54d4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.sp_helpdiagrams_Result.OwnerID</definition>
+        <argsstring></argsstring>
+        <name>OwnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sp_helpdiagrams_Result.cs" line="20" column="1" bodyfile="sp_helpdiagrams_Result.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sp_helpdiagrams_Result.cs" line="15" column="1" bodyfile="sp_helpdiagrams_Result.cs" bodystart="14" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1adb07dbad8b1d16524a04adff40ef96e6" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagrams_Result</scope><name>Database</name></member>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1a078589022ec667d924f57fa750f8f2d2" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagrams_Result</scope><name>ID</name></member>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1a6d64dd61b5f8cbea2d6f730150c58257" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagrams_Result</scope><name>Name</name></member>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1ac300ece92372a213fc11781046589831" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagrams_Result</scope><name>Owner</name></member>
+      <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1ab90f75222f04da1f706afb2c0d5e54d4" prot="public" virt="non-virtual"><scope>StokOtomasyanu::sp_helpdiagrams_Result</scope><name>OwnerID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

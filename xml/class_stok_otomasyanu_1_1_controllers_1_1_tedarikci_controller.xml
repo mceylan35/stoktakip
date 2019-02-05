@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::TedarikciController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a0afdc2e5d6db5479a4465cff899d4d06" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.TedarikciController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="20" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a672619da689367328d2a4c2a2e668b10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.TedarikciController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="23" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1aeb46215f6139fccbfab13bffe1e08ef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.TedarikciController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="29" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a810e80d4378cb97cbd703b454c17ced8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.TedarikciController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;TedarikciId,TedarikciAdi&quot;)] Tedarikci tedarikci)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;TedarikciId,TedarikciAdi&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_tedarikci" kindref="compound">Tedarikci</ref></type>
+          <declname>tedarikci</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="37" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="37" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1aa50e587e424e41ae89d650546bf06b08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.TedarikciController.Duzenle</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="60" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="60" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a13188de8887dae119f4108bc7855b899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.TedarikciController.Duzenle</definition>
+        <argsstring>([Bind(Include=&quot;TedarikciId,TedarikciAdi&quot;)] Tedarikci tedarikci)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <attributes>[Bind(Include=&quot;TedarikciId,TedarikciAdi&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_tedarikci" kindref="compound">Tedarikci</ref></type>
+          <declname>tedarikci</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="77" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="77" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a8d316fff340ab7005000c673506e33f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.TedarikciController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="105" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="105" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1ad99c28dd2bf375c3c9a78e24e4677932" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FileResult</type>
+        <definition>FileResult StokOtomasyanu.Controllers.TedarikciController.Pdf</definition>
+        <argsstring>(string GridHtml)</argsstring>
+        <name>Pdf</name>
+        <param>
+          <type>string</type>
+          <declname>GridHtml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/TedarikciController.cs" line="124" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="124" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="66">
+        <label>StokOtomasyanu.Controllers.TedarikciController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>StokOtomasyanu.Controllers.TedarikciController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/TedarikciController.cs" line="19" column="1" bodyfile="Controllers/TedarikciController.cs" bodystart="18" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a0afdc2e5d6db5479a4465cff899d4d06" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1aa50e587e424e41ae89d650546bf06b08" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a13188de8887dae119f4108bc7855b899" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a672619da689367328d2a4c2a2e668b10" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1ad99c28dd2bf375c3c9a78e24e4677932" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Pdf</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a8d316fff340ab7005000c673506e33f7" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1aeb46215f6139fccbfab13bffe1e08ef7" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a810e80d4378cb97cbd703b454c17ced8" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::TedarikciController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

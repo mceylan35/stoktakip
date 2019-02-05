@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::UrunController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1aded5c42c1eef5065d96a4d6ab4112d82" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.UrunController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="21" column="1" bodyfile="Controllers/UrunController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ab00ddb403b5cc22f834da6d3244df143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.UrunController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="25" column="1" bodyfile="Controllers/UrunController.cs" bodystart="25" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1af933a40cfda9fe5331a08808382d3635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.UrunController.Ara</definition>
+        <argsstring>(string q)</argsstring>
+        <name>Ara</name>
+        <param>
+          <type>string</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="36" column="1" bodyfile="Controllers/UrunController.cs" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a274480fd4a7bf8c2da7a76f3ce400cf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.UrunController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="49" column="1" bodyfile="Controllers/UrunController.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ac29487e0b0adc1952250287a84904f4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.UrunController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;UrunId,KategoriId,TedarikciId,UrunaAdi,UrunBirimFiyati,SatinAlinmaTarihi,Stok,StokDurum,BolumID&quot;)] Urunler urunler)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;UrunId,KategoriId,TedarikciId,UrunaAdi,UrunBirimFiyati,SatinAlinmaTarihi,Stok,StokDurum,BolumID&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref></type>
+          <declname>urunler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="60" column="1" bodyfile="Controllers/UrunController.cs" bodystart="60" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a198eb413764c76119f40193231c806b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.UrunController.Duzenle</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="88" column="1" bodyfile="Controllers/UrunController.cs" bodystart="88" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ae5092ddaf3d0da3135fcc6110f294e5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.UrunController.Duzenle</definition>
+        <argsstring>([Bind(Include=&quot;UrunId,KategoriId,TedarikciId,UrunaAdi,UrunBirimFiyati,SatinAlinmaTarihi,Stok,StokDurum,BolumID&quot;)] Urunler urunler)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <attributes>[Bind(Include=&quot;UrunId,KategoriId,TedarikciId,UrunaAdi,UrunBirimFiyati,SatinAlinmaTarihi,Stok,StokDurum,BolumID&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref></type>
+          <declname>urunler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="109" column="1" bodyfile="Controllers/UrunController.cs" bodystart="109" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a349fcab07a4ddf7837cab948fcdeb49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.UrunController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/UrunController.cs" line="147" column="1" bodyfile="Controllers/UrunController.cs" bodystart="147" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="70">
+        <label>StokOtomasyanu.Controllers.UrunController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>StokOtomasyanu.Controllers.UrunController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/UrunController.cs" line="20" column="1" bodyfile="Controllers/UrunController.cs" bodystart="19" bodyend="166"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1af933a40cfda9fe5331a08808382d3635" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Ara</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1aded5c42c1eef5065d96a4d6ab4112d82" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a198eb413764c76119f40193231c806b3" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ae5092ddaf3d0da3135fcc6110f294e5c" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ab00ddb403b5cc22f834da6d3244df143" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a349fcab07a4ddf7837cab948fcdeb49c" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a274480fd4a7bf8c2da7a76f3ce400cf2" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ac29487e0b0adc1952250287a84904f4f" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::UrunController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

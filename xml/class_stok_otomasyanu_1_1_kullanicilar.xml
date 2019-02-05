@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_kullanicilar" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Kullanicilar</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1afffc55ae6b1671059b81996a659c1ce1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.Kullanicilar.KullaniciId</definition>
+        <argsstring></argsstring>
+        <name>KullaniciId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="23" column="1" bodyfile="Kullanicilar.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1a9677342d8053d48d0a0e5745bbc52b54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Kullanicilar.KullaniciAdi</definition>
+        <argsstring></argsstring>
+        <name>KullaniciAdi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="24" column="1" bodyfile="Kullanicilar.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1a144eed49d04ba8f2f23d365dd8659c3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Kullanicilar.Sifre</definition>
+        <argsstring></argsstring>
+        <name>Sifre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="25" column="1" bodyfile="Kullanicilar.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1ae7af5afc6e0b64aba43956b1d80a5559" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.Kullanicilar.RoleId</definition>
+        <argsstring></argsstring>
+        <name>RoleId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="26" column="1" bodyfile="Kullanicilar.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1a8fd3ff9d813a1226fc82b02ce6423de5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.Kullanicilar.BolumId</definition>
+        <argsstring></argsstring>
+        <name>BolumId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="27" column="1" bodyfile="Kullanicilar.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1ab0e45abd454aff487b0522969223b8d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Kullanicilar.Ad</definition>
+        <argsstring></argsstring>
+        <name>Ad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="28" column="1" bodyfile="Kullanicilar.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1a2643e8d2735ffccf4d6bc0104477c711" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Kullanicilar.Soyad</definition>
+        <argsstring></argsstring>
+        <name>Soyad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="29" column="1" bodyfile="Kullanicilar.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1aeffa4e5c6fb7a9aba95f66154f634774" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_bolum" kindref="compound">Bolum</ref></type>
+        <definition>virtual Bolum StokOtomasyanu.Kullanicilar.Bolum</definition>
+        <argsstring></argsstring>
+        <name>Bolum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="31" column="1" bodyfile="Kullanicilar.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1a3d6ae156bdb956351da52353b6b7ec53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_stok_otomasyanu_1_1_kisi_zimmet" kindref="compound">KisiZimmet</ref> &gt;</type>
+        <definition>virtual ICollection&lt;KisiZimmet&gt; StokOtomasyanu.Kullanicilar.KisiZimmets</definition>
+        <argsstring></argsstring>
+        <name>KisiZimmets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="33" column="1" bodyfile="Kullanicilar.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kullanicilar_1aa8f57d01ebd2734ced1a25c7e65dbcde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_roller" kindref="compound">Roller</ref></type>
+        <definition>virtual Roller StokOtomasyanu.Kullanicilar.Roller</definition>
+        <argsstring></argsstring>
+        <name>Roller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="34" column="1" bodyfile="Kullanicilar.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_kullanicilar_1ab6cc636244edc0a563d5c39fd5e387c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StokOtomasyanu.Kullanicilar.Kullanicilar</definition>
+        <argsstring>()</argsstring>
+        <name>Kullanicilar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kullanicilar.cs" line="18" column="1" bodyfile="Kullanicilar.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Kullanicilar.cs" line="16" column="1" bodyfile="Kullanicilar.cs" bodystart="15" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1ab0e45abd454aff487b0522969223b8d9" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>Ad</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1aeffa4e5c6fb7a9aba95f66154f634774" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>Bolum</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a8fd3ff9d813a1226fc82b02ce6423de5" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>BolumId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a3d6ae156bdb956351da52353b6b7ec53" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>KisiZimmets</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a9677342d8053d48d0a0e5745bbc52b54" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>KullaniciAdi</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1afffc55ae6b1671059b81996a659c1ce1" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>KullaniciId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1ab6cc636244edc0a563d5c39fd5e387c8" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>Kullanicilar</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1ae7af5afc6e0b64aba43956b1d80a5559" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>RoleId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1aa8f57d01ebd2734ced1a25c7e65dbcde" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>Roller</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a144eed49d04ba8f2f23d365dd8659c3c" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>Sifre</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a2643e8d2735ffccf4d6bc0104477c711" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kullanicilar</scope><name>Soyad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_c_____migration_history" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::C__MigrationHistory</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_c_____migration_history_1a1a365272b2341114ef516079b592e8e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.C__MigrationHistory.MigrationId</definition>
+        <argsstring></argsstring>
+        <name>MigrationId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C__MigrationHistory.cs" line="17" column="1" bodyfile="C__MigrationHistory.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_c_____migration_history_1a31989491d30a02e2340e42cefea98a6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.C__MigrationHistory.ContextKey</definition>
+        <argsstring></argsstring>
+        <name>ContextKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C__MigrationHistory.cs" line="18" column="1" bodyfile="C__MigrationHistory.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_c_____migration_history_1a33da7dd0cbcc0b757b19a89678be7744" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>byte []</type>
+        <definition>byte [] StokOtomasyanu.C__MigrationHistory.Model</definition>
+        <argsstring></argsstring>
+        <name>Model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C__MigrationHistory.cs" line="19" column="1" bodyfile="C__MigrationHistory.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_c_____migration_history_1a88130c99d84e2fd88604b56434bf2898" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.C__MigrationHistory.ProductVersion</definition>
+        <argsstring></argsstring>
+        <name>ProductVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C__MigrationHistory.cs" line="20" column="1" bodyfile="C__MigrationHistory.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C__MigrationHistory.cs" line="16" column="1" bodyfile="C__MigrationHistory.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a31989491d30a02e2340e42cefea98a6f" prot="public" virt="non-virtual"><scope>StokOtomasyanu::C__MigrationHistory</scope><name>ContextKey</name></member>
+      <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a1a365272b2341114ef516079b592e8e9" prot="public" virt="non-virtual"><scope>StokOtomasyanu::C__MigrationHistory</scope><name>MigrationId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a33da7dd0cbcc0b757b19a89678be7744" prot="public" virt="non-virtual"><scope>StokOtomasyanu::C__MigrationHistory</scope><name>Model</name></member>
+      <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a88130c99d84e2fd88604b56434bf2898" prot="public" virt="non-virtual"><scope>StokOtomasyanu::C__MigrationHistory</scope><name>ProductVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

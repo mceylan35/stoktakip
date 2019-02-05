@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_stok_takip_context" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::StokTakipContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a26113982f41514e98a5e2fb400f9010a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_c_____migration_history" kindref="compound">C__MigrationHistory</ref> &gt;</type>
+        <definition>virtual DbSet&lt;C__MigrationHistory&gt; StokOtomasyanu.StokTakipContext.C__MigrationHistory</definition>
+        <argsstring></argsstring>
+        <name>C__MigrationHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="30" column="1" bodyfile="Model1.Context.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a10d4159583f71b52ee3b9568f7a78f29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_atiklar" kindref="compound">Atiklar</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Atiklar&gt; StokOtomasyanu.StokTakipContext.Atiklars</definition>
+        <argsstring></argsstring>
+        <name>Atiklars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="31" column="1" bodyfile="Model1.Context.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1ae50386f18eab0147c353989899fb4fc3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_bolum" kindref="compound">Bolum</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Bolum&gt; StokOtomasyanu.StokTakipContext.Bolums</definition>
+        <argsstring></argsstring>
+        <name>Bolums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="32" column="1" bodyfile="Model1.Context.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a87871396803d13900481de8c7b3d775a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_bolum_zimmet" kindref="compound">BolumZimmet</ref> &gt;</type>
+        <definition>virtual DbSet&lt;BolumZimmet&gt; StokOtomasyanu.StokTakipContext.BolumZimmets</definition>
+        <argsstring></argsstring>
+        <name>BolumZimmets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="33" column="1" bodyfile="Model1.Context.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a88d891a031cd17699fba752e688ed5c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_kategoriler" kindref="compound">Kategoriler</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Kategoriler&gt; StokOtomasyanu.StokTakipContext.Kategorilers</definition>
+        <argsstring></argsstring>
+        <name>Kategorilers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="34" column="1" bodyfile="Model1.Context.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1aca7a0e8b4995e71762f8283a705eff57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_kisi_zimmet" kindref="compound">KisiZimmet</ref> &gt;</type>
+        <definition>virtual DbSet&lt;KisiZimmet&gt; StokOtomasyanu.StokTakipContext.KisiZimmets</definition>
+        <argsstring></argsstring>
+        <name>KisiZimmets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="35" column="1" bodyfile="Model1.Context.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a0fb27861e60f4eaa3bc2ed286c2c624e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_kullanicilar" kindref="compound">Kullanicilar</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Kullanicilar&gt; StokOtomasyanu.StokTakipContext.Kullanicilars</definition>
+        <argsstring></argsstring>
+        <name>Kullanicilars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="36" column="1" bodyfile="Model1.Context.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1abaf904277728a716c117bdeab435c96a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_roller" kindref="compound">Roller</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Roller&gt; StokOtomasyanu.StokTakipContext.Rollers</definition>
+        <argsstring></argsstring>
+        <name>Rollers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="37" column="1" bodyfile="Model1.Context.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a7f65847b6ac14a0d24fdb366aa7fded0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1sysdiagram" kindref="compound">sysdiagram</ref> &gt;</type>
+        <definition>virtual DbSet&lt;sysdiagram&gt; StokOtomasyanu.StokTakipContext.sysdiagrams</definition>
+        <argsstring></argsstring>
+        <name>sysdiagrams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="38" column="1" bodyfile="Model1.Context.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1a49531929d71774b4aaafc390002765cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_tedarikci" kindref="compound">Tedarikci</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Tedarikci&gt; StokOtomasyanu.StokTakipContext.Tedarikcis</definition>
+        <argsstring></argsstring>
+        <name>Tedarikcis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="39" column="1" bodyfile="Model1.Context.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_stok_takip_context_1acdfad849fe1288813679eff37ad7da7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Urunler&gt; StokOtomasyanu.StokTakipContext.Urunlers</definition>
+        <argsstring></argsstring>
+        <name>Urunlers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="40" column="1" bodyfile="Model1.Context.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1afa38fd05508651acdb198363e8f825b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StokOtomasyanu.StokTakipContext.StokTakipContext</definition>
+        <argsstring>()</argsstring>
+        <name>StokTakipContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="20" column="1" bodyfile="Model1.Context.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a03f789a99339ad2b0bf4df5deff71f14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int StokOtomasyanu.StokTakipContext.sp_alterdiagram</definition>
+        <argsstring>(string diagramname, Nullable&lt; int &gt; owner_id, Nullable&lt; int &gt; version, byte[] definition)</argsstring>
+        <name>sp_alterdiagram</name>
+        <param>
+          <type>string</type>
+          <declname>diagramname</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>owner_id</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>byte []</type>
+          <declname>definition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="42" column="1" bodyfile="Model1.Context.cs" bodystart="42" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a88b056e4ddb84ef92c2560cf9967cd14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int StokOtomasyanu.StokTakipContext.sp_creatediagram</definition>
+        <argsstring>(string diagramname, Nullable&lt; int &gt; owner_id, Nullable&lt; int &gt; version, byte[] definition)</argsstring>
+        <name>sp_creatediagram</name>
+        <param>
+          <type>string</type>
+          <declname>diagramname</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>owner_id</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>byte []</type>
+          <declname>definition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="63" column="1" bodyfile="Model1.Context.cs" bodystart="63" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1affaaaed4495d327c11b97cfc00b3213e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int StokOtomasyanu.StokTakipContext.sp_dropdiagram</definition>
+        <argsstring>(string diagramname, Nullable&lt; int &gt; owner_id)</argsstring>
+        <name>sp_dropdiagram</name>
+        <param>
+          <type>string</type>
+          <declname>diagramname</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>owner_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="84" column="1" bodyfile="Model1.Context.cs" bodystart="84" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a49406d022824b9a088e6542a8ca219f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ObjectResult&lt; <ref refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result" kindref="compound">sp_helpdiagramdefinition_Result</ref> &gt;</type>
+        <definition>virtual ObjectResult&lt;sp_helpdiagramdefinition_Result&gt; StokOtomasyanu.StokTakipContext.sp_helpdiagramdefinition</definition>
+        <argsstring>(string diagramname, Nullable&lt; int &gt; owner_id)</argsstring>
+        <name>sp_helpdiagramdefinition</name>
+        <param>
+          <type>string</type>
+          <declname>diagramname</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>owner_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="97" column="1" bodyfile="Model1.Context.cs" bodystart="97" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a564f5c457fe4a1c4ffe3900e725cd341" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ObjectResult&lt; <ref refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result" kindref="compound">sp_helpdiagrams_Result</ref> &gt;</type>
+        <definition>virtual ObjectResult&lt;sp_helpdiagrams_Result&gt; StokOtomasyanu.StokTakipContext.sp_helpdiagrams</definition>
+        <argsstring>(string diagramname, Nullable&lt; int &gt; owner_id)</argsstring>
+        <name>sp_helpdiagrams</name>
+        <param>
+          <type>string</type>
+          <declname>diagramname</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>owner_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="110" column="1" bodyfile="Model1.Context.cs" bodystart="110" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a6a3dab5c670bdf2b9a1bfc635d8d9ea4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int StokOtomasyanu.StokTakipContext.sp_renamediagram</definition>
+        <argsstring>(string diagramname, Nullable&lt; int &gt; owner_id, string new_diagramname)</argsstring>
+        <name>sp_renamediagram</name>
+        <param>
+          <type>string</type>
+          <declname>diagramname</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; int &gt;</type>
+          <declname>owner_id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>new_diagramname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="123" column="1" bodyfile="Model1.Context.cs" bodystart="123" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a6c45c3af4e9c39186b8d919627b0e72f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int StokOtomasyanu.StokTakipContext.sp_upgraddiagrams</definition>
+        <argsstring>()</argsstring>
+        <name>sp_upgraddiagrams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="140" column="1" bodyfile="Model1.Context.cs" bodystart="140" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_stok_takip_context_1a04090ef6db19ac55028de6f341d9a71f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StokOtomasyanu.StokTakipContext.OnModelCreating</definition>
+        <argsstring>(DbModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>DbModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Model1.Context.cs" line="25" column="1" bodyfile="Model1.Context.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>DbContext</label>
+      </node>
+      <node id="58">
+        <label>StokOtomasyanu.StokTakipContext</label>
+        <link refid="class_stok_otomasyanu_1_1_stok_takip_context"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>DbContext</label>
+      </node>
+      <node id="60">
+        <label>StokOtomasyanu.StokTakipContext</label>
+        <link refid="class_stok_otomasyanu_1_1_stok_takip_context"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Model1.Context.cs" line="19" column="1" bodyfile="Model1.Context.cs" bodystart="18" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a10d4159583f71b52ee3b9568f7a78f29" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Atiklars</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1ae50386f18eab0147c353989899fb4fc3" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Bolums</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a87871396803d13900481de8c7b3d775a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>BolumZimmets</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a26113982f41514e98a5e2fb400f9010a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>C__MigrationHistory</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a88d891a031cd17699fba752e688ed5c4" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Kategorilers</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1aca7a0e8b4995e71762f8283a705eff57" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>KisiZimmets</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a0fb27861e60f4eaa3bc2ed286c2c624e" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Kullanicilars</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a04090ef6db19ac55028de6f341d9a71f" prot="protected" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>OnModelCreating</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1abaf904277728a716c117bdeab435c96a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Rollers</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a03f789a99339ad2b0bf4df5deff71f14" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_alterdiagram</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a88b056e4ddb84ef92c2560cf9967cd14" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_creatediagram</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1affaaaed4495d327c11b97cfc00b3213e" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_dropdiagram</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a49406d022824b9a088e6542a8ca219f7" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_helpdiagramdefinition</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a564f5c457fe4a1c4ffe3900e725cd341" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_helpdiagrams</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a6a3dab5c670bdf2b9a1bfc635d8d9ea4" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_renamediagram</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a6c45c3af4e9c39186b8d919627b0e72f" prot="public" virt="virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sp_upgraddiagrams</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1afa38fd05508651acdb198363e8f825b4" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>StokTakipContext</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a7f65847b6ac14a0d24fdb366aa7fded0" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>sysdiagrams</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a49531929d71774b4aaafc390002765cd" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Tedarikcis</name></member>
+      <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1acdfad849fe1288813679eff37ad7da7f" prot="public" virt="non-virtual"><scope>StokOtomasyanu::StokTakipContext</scope><name>Urunlers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

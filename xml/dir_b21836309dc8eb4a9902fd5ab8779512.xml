@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_b21836309dc8eb4a9902fd5ab8779512" kind="dir">
+    <compoundname>C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests</compoundname>
+    <innerdir refid="dir_196519c8948e9e94e0211ef373472d86">C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests/obj</innerdir>
+    <innerdir refid="dir_24aafd0f27776fde491f265d354982bd">C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests/Properties</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests/"/>
+  </compounddef>
+</doxygen>

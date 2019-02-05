@@ -1,0 +1,139 @@
+﻿@model IEnumerable<StokOtomasyanu.Urunler>
+@{
+    ViewBag.Title = "Ürünler";
+}
+<br />
+
+<br />
+
+
+<div class="row">
+    <div class="form-group col-md-7">
+        @Html.ActionLink("Yeni", "Yeni", "", htmlAttributes: new { @class = "btn btn-success" })
+    </div>
+    @using (Html.BeginForm("Ara", "Urun", FormMethod.Get))
+    {
+        <div class="form-group col-md-3">
+
+
+            @Html.TextBox("q", null, htmlAttributes: new { @class = "form-control form-control-lg form-control - borderless" })
+
+
+        </div>
+        <div class="form-group col-md-2">
+            <button class="btn btn-success" type="submit">Ara</button>
+        </div>
+    }
+
+</div>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            Ürün Adı
+        </th>
+        <th>
+            Fiyat
+        </th>
+        <th>
+            Satın Alma Tarihi
+        </th>
+        <th>
+            Stok Adet
+        </th>
+        <th>
+            Stok Durum
+        </th>
+        <th>
+            Ürün Tipi
+        </th>
+        <th>
+            Kategori
+        </th>
+        <th>
+            Tedarikçi Adı
+        </th>
+        <th></th>
+
+    </tr>
+
+
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.UrunaAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrunBirimFiyati)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SatinAlinmaTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stok)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StokDurum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bolum.BolumAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kategoriler.KategoriAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tedarikci.TedarikciAdi)
+            </td>
+
+            <td>
+                @Html.ActionLink("Düzenle", "Duzenle", new { id = item.UrunId }, htmlAttributes: new { @class = "btn btn-warning" })
+                <a href="#" class="btn btn-danger urnsil" data-urnid="@item.UrunId">Sil</a>
+            </td>
+
+        </tr>
+
+    }
+
+</table>
+<div>
+    @Html.ActionLink("Listeye Geri Dön", "Index")
+</div>
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+
+        $(".urnsil").click(function () {
+            var sonuc = confirm("Kayıt Silinsin mi?");
+            if (sonuc) {
+                var urnid = $(this).data("urnid");
+                $.ajax({
+                    type: "POST",
+                    url: "/Urun/Sil/" + urnid,
+                    success: function (parameters) {
+                        alert("Kayıt Silindi");
+                        window.location.replace("/Urun/Index");
+                    },
+                    error: function () {
+                        alert("kayıt silme sırasında hata oluştu");
+                    }
+
+
+
+                });
+
+            } else {
+                alert("iptal edildi");
+
+            }
+
+        });
+</script>
+
+

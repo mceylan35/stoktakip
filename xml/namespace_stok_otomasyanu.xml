@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_stok_otomasyanu" kind="namespace" language="C#">
+    <compoundname>StokOtomasyanu</compoundname>
+    <innerclass refid="class_stok_otomasyanu_1_1_atiklar" prot="public">StokOtomasyanu::Atiklar</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_bolum" prot="public">StokOtomasyanu::Bolum</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_bolum_zimmet" prot="public">StokOtomasyanu::BolumZimmet</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_c_____migration_history" prot="public">StokOtomasyanu::C__MigrationHistory</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_kategoriler" prot="public">StokOtomasyanu::Kategoriler</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_kisi_zimmet" prot="public">StokOtomasyanu::KisiZimmet</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_kullanicilar" prot="public">StokOtomasyanu::Kullanicilar</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_mvc_application" prot="public">StokOtomasyanu::MvcApplication</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_roller" prot="public">StokOtomasyanu::Roller</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_route_config" prot="public">StokOtomasyanu::RouteConfig</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result" prot="public">StokOtomasyanu::sp_helpdiagramdefinition_Result</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result" prot="public">StokOtomasyanu::sp_helpdiagrams_Result</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_stok_takip_context" prot="public">StokOtomasyanu::StokTakipContext</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1sysdiagram" prot="public">StokOtomasyanu::sysdiagram</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_tedarikci" prot="public">StokOtomasyanu::Tedarikci</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_urunler" prot="public">StokOtomasyanu::Urunler</innerclass>
+    <innernamespace refid="namespace_stok_otomasyanu_1_1_controllers">StokOtomasyanu::Controllers</innernamespace>
+    <innernamespace refid="namespace_stok_otomasyanu_1_1_security">StokOtomasyanu::Security</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="App_Start/RouteConfig.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller" kind="class"><name>StokOtomasyanu::Controllers::AtikController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a54e5441cde4b72a403504f2081ae1ae9" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a059d64a06e4075c02657d302c1146af5" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1ab65ee3b1c7c0d4676a31345e1cac595a" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a7974be2429d26b22cdd8fab179228d18" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1ac3a164979324c59da6079e744eaabda7" kind="function"><name>Sil</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a666f4692c709ddbfd23bf4677171b82e" kind="function"><name>Pdf</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_atiklar" kind="class"><name>StokOtomasyanu::Atiklar</name>
+    <member refid="class_stok_otomasyanu_1_1_atiklar_1ad18e119b2fdab47d9177105a3ba61337" kind="property"><name>AtikId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_atiklar_1ad75da213395ea0982d58371c1eccc4dd" kind="property"><name>UrunId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_atiklar_1ab111102b416a761d1988fa7120730710" kind="property"><name>Urunler</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_bolum" kind="class"><name>StokOtomasyanu::Bolum</name>
+    <member refid="class_stok_otomasyanu_1_1_bolum_1a4b230b4d292ac63b796cd6972b6a248e" kind="property"><name>BolumId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_1a72adabc5bce582558df2702c8e8b7a3f" kind="property"><name>BolumAdi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_1a645965d72a7ace1bc5ea76b7bb196462" kind="property"><name>BolumZimmets</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_1aa8ad0e6147baf98925ac18478078705a" kind="property"><name>Kullanicilars</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_1ad097a6cb5e560937aa5a525840116877" kind="property"><name>Urunlers</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_1aba4b2e9d3c4741415566855eba1c395d" kind="function"><name>Bolum</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller" kind="class"><name>StokOtomasyanu::Controllers::BolumController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1aac2bf21950a3f1ec0162553f71c6847c" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a7ed500e64d975a5f574287d6b75637fd" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a4595e5c86e532440a576e7b394fdc37a" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a5a2614523ce051c9821fad5e00d12080" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a103d82a03af54a651bbb81c15c24f2e5" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1afba3ff8c12a9ba75c1dfb62ed5374df1" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a0f9ba4040522a8b23b26d727d6d56d1b" kind="function"><name>Sil</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_bolum_zimmet" kind="class"><name>StokOtomasyanu::BolumZimmet</name>
+    <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a4696c012f11d7eab6901286b653e2cd0" kind="property"><name>BolumZimmetId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1ac16d0b978acec9383500543d7369d6a9" kind="property"><name>BolumId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a85db87b22e93bbea757c0765d96dce2f" kind="property"><name>UrunId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a9a03d11cc955e020cb2fd733bc570d91" kind="property"><name>Durum</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a0d258fb01e7868e8033d96c1351febdc" kind="property"><name>Bolum</name></member>
+    <member refid="class_stok_otomasyanu_1_1_bolum_zimmet_1a0ca04765d53c18ce4dcb7f28a4f34234" kind="property"><name>Urunler</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller" kind="class"><name>StokOtomasyanu::Controllers::BolumZimmetController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1a370160147bd966a382a16905858694fe" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1a15e543eb09c981db1c703ef9a63c52ee" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1ae96cae10a0991c780d5488afae127f5e" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1accefa0f5a4fe68002904d58eaa410284" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1a74ff3b70499ad64a4ee9ff7b80c37611" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1a10919ee667c69e14199940118d62576a" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1ad0c26e95b88828ff6471782aaf0e2f63" kind="function"><name>Sil</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller_1ae0a6d0e64d01ac6bb29d6b59b8becd42" kind="function"><name>Pdf</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_c_____migration_history" kind="class"><name>StokOtomasyanu::C__MigrationHistory</name>
+    <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a1a365272b2341114ef516079b592e8e9" kind="property"><name>MigrationId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a31989491d30a02e2340e42cefea98a6f" kind="property"><name>ContextKey</name></member>
+    <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a33da7dd0cbcc0b757b19a89678be7744" kind="property"><name>Model</name></member>
+    <member refid="class_stok_otomasyanu_1_1_c_____migration_history_1a88130c99d84e2fd88604b56434bf2898" kind="property"><name>ProductVersion</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller" kind="class"><name>StokOtomasyanu::Controllers::KategoriController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1af1151577baef5241000db4387a7474c2" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6461a7de153f512395199bd436630c9e" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a8bc8d869bf8fb2572def6fe8a3af84a8" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6b9cfe7dbea88e7c0e855646f453dca3" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a9f12c3b6134838c3030ee80f58baeab0" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a6f13685a3977b91b2d37db921f635f8e" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller_1a95af421fa7ac207338f78a31716ef329" kind="function"><name>Sil</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_kategoriler" kind="class"><name>StokOtomasyanu::Kategoriler</name>
+    <member refid="class_stok_otomasyanu_1_1_kategoriler_1ade20d6adf73298af4dcf31160a558e79" kind="property"><name>KategoriId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kategoriler_1a417324f2005fc0ce0bdcbd007b454487" kind="property"><name>KategoriAdi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kategoriler_1a4eed53fd8d9bbbf46a56b5705eb23140" kind="property"><name>Urunlers</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kategoriler_1a6455af2bceca6eea9acb36159ea07c50" kind="function"><name>Kategoriler</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_kisi_zimmet" kind="class"><name>StokOtomasyanu::KisiZimmet</name>
+    <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1ad3e805634eadc4eb0b17088a448b42bd" kind="property"><name>KisiZimmetId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1abe2dd606e4a77e673d1ea8e9bb8ffabb" kind="property"><name>KisiId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1a4e1d5d575a37b58163c34b8db8253dd5" kind="property"><name>UrunId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1a9a6b2b241a790e921f1dfa62ef8a4239" kind="property"><name>Durum</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1a31ba2bf919f9af9b566fc4321d0799e1" kind="property"><name>Kullanicilar</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kisi_zimmet_1ae25b1cbf289c8cfeae8d6427b355a616" kind="property"><name>Urunler</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller" kind="class"><name>StokOtomasyanu::Controllers::KisiZimmetController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a99c95e2ad47840095cdba6fc85225b60" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a6925e5aa1415738699e5b6cc2ef77cd4" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1ab8cd74db79c64b23d552b47ed6ce2c5a" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1ac65f6128070c4222054a04770b629b7b" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a7ba47d6191f0d23319ff98bf2c9db1e0" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1aaa6daa5227da82a174b7906acd0e92ad" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a56e2a6fa88f87f7933ef41809393cbc1" kind="function"><name>Sil</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1acb288e9146b42976ecad051c6765d978" kind="function"><name>Pdf</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller" kind="class"><name>StokOtomasyanu::Controllers::KullaniciController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a55aa1a59b956717dffbe0276caf8e8ee" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a04e7d96cd6d0fd5c3e7c5740d4acbefe" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a99aa942746bca617ed35e51eabe601ce" kind="function"><name>Ara</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a81ef8ae5b76d5f652103ab4a5a96b436" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a9c8e4395854897904300a42729e7f5e5" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a4ead2cba4046cbc5464ceb1ac5763aba" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1ab70dbc9d251a76db585ed8ffe9df1733" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller_1a5dcfe887e37f2ece3c46c317224edcc6" kind="function"><name>Sil</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_kullanicilar" kind="class"><name>StokOtomasyanu::Kullanicilar</name>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1afffc55ae6b1671059b81996a659c1ce1" kind="property"><name>KullaniciId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a9677342d8053d48d0a0e5745bbc52b54" kind="property"><name>KullaniciAdi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a144eed49d04ba8f2f23d365dd8659c3c" kind="property"><name>Sifre</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1ae7af5afc6e0b64aba43956b1d80a5559" kind="property"><name>RoleId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a8fd3ff9d813a1226fc82b02ce6423de5" kind="property"><name>BolumId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1ab0e45abd454aff487b0522969223b8d9" kind="property"><name>Ad</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a2643e8d2735ffccf4d6bc0104477c711" kind="property"><name>Soyad</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1aeffa4e5c6fb7a9aba95f66154f634774" kind="property"><name>Bolum</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1a3d6ae156bdb956351da52353b6b7ec53" kind="property"><name>KisiZimmets</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1aa8f57d01ebd2734ced1a25c7e65dbcde" kind="property"><name>Roller</name></member>
+    <member refid="class_stok_otomasyanu_1_1_kullanicilar_1ab6cc636244edc0a563d5c39fd5e387c8" kind="function"><name>Kullanicilar</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_mvc_application" kind="class"><name>StokOtomasyanu::MvcApplication</name>
+    <member refid="class_stok_otomasyanu_1_1_mvc_application_1a156a044e8bfbf09c158c0315411ea6b0" kind="function"><name>Application_Start</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider" kind="class"><name>StokOtomasyanu::Security::PersonelRoleProvider</name>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ac24da730a4131ece8484b2fa9733e6ff" kind="property"><name>ApplicationName</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a89b93026e2e343f3e41d5973596152c6" kind="function"><name>AddUsersToRoles</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ae5f07476022efaa2e04e04780fe90a4a" kind="function"><name>CreateRole</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a96ff981d76e083a9bb57b9237139d094" kind="function"><name>DeleteRole</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a9405afbd0e1f565a6732b661a1da6197" kind="function"><name>FindUsersInRole</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ac88e722b588a2cb36b50e6e5a4efe0b6" kind="function"><name>GetAllRoles</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1ab7e63c6b9e4f5da49b7c11d7da1f5588" kind="function"><name>GetRolesForUser</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1acd0efddbfbe3745593f73571336c3a8f" kind="function"><name>GetUsersInRole</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a9edf99186fe35e7401007341b2771a20" kind="function"><name>IsUserInRole</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1aa706f144e84d0771c29b6711e39ddcbb" kind="function"><name>RemoveUsersFromRoles</name></member>
+    <member refid="class_stok_otomasyanu_1_1_security_1_1_personel_role_provider_1a2dce2c01ef701ce385415b3d6ae40a5c" kind="function"><name>RoleExists</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_roller" kind="class"><name>StokOtomasyanu::Roller</name>
+    <member refid="class_stok_otomasyanu_1_1_roller_1a8e8181d5c0560af6a93b60e4315dde1a" kind="property"><name>RoleId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_roller_1a50d0a234de87fe1d1813f8e5d552881f" kind="property"><name>RolAdi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_roller_1a8edb7ad3e4c37509b17c8f482a211521" kind="property"><name>Kullanicilars</name></member>
+    <member refid="class_stok_otomasyanu_1_1_roller_1abf8997159ef599cdd03739055d7affaa" kind="function"><name>Roller</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_route_config" kind="class"><name>StokOtomasyanu::RouteConfig</name>
+    <member refid="class_stok_otomasyanu_1_1_route_config_1ab97260d5780c90b7c79c526583a9114a" kind="function"><name>RegisterRoutes</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_security_controller" kind="class"><name>StokOtomasyanu::Controllers::SecurityController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_security_controller_1a45368eb104cadda4139d768d7fccd8c3" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_security_controller_1a0980ad306eadd7e87fbe4bcabc3abde2" kind="function"><name>Login</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_security_controller_1ad3b7de3b0bad16cad94395a7df7348ee" kind="function"><name>Login</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_security_controller_1ad451a22a1b60d95f5d67ec39cd6da303" kind="function"><name>LogOut</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result" kind="class"><name>StokOtomasyanu::sp_helpdiagramdefinition_Result</name>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result_1a9a4567bec8b336fde7dd91f43066a6b6" kind="property"><name>version</name></member>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagramdefinition___result_1a63ea2822ca217a2e86af105bf610cc9b" kind="property"><name>definition</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result" kind="class"><name>StokOtomasyanu::sp_helpdiagrams_Result</name>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1adb07dbad8b1d16524a04adff40ef96e6" kind="property"><name>Database</name></member>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1a6d64dd61b5f8cbea2d6f730150c58257" kind="property"><name>Name</name></member>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1a078589022ec667d924f57fa750f8f2d2" kind="property"><name>ID</name></member>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1ac300ece92372a213fc11781046589831" kind="property"><name>Owner</name></member>
+    <member refid="class_stok_otomasyanu_1_1sp__helpdiagrams___result_1ab90f75222f04da1f706afb2c0d5e54d4" kind="property"><name>OwnerID</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_stok_takip_context" kind="class"><name>StokOtomasyanu::StokTakipContext</name>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a26113982f41514e98a5e2fb400f9010a" kind="property"><name>C__MigrationHistory</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a10d4159583f71b52ee3b9568f7a78f29" kind="property"><name>Atiklars</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1ae50386f18eab0147c353989899fb4fc3" kind="property"><name>Bolums</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a87871396803d13900481de8c7b3d775a" kind="property"><name>BolumZimmets</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a88d891a031cd17699fba752e688ed5c4" kind="property"><name>Kategorilers</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1aca7a0e8b4995e71762f8283a705eff57" kind="property"><name>KisiZimmets</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a0fb27861e60f4eaa3bc2ed286c2c624e" kind="property"><name>Kullanicilars</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1abaf904277728a716c117bdeab435c96a" kind="property"><name>Rollers</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a7f65847b6ac14a0d24fdb366aa7fded0" kind="property"><name>sysdiagrams</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a49531929d71774b4aaafc390002765cd" kind="property"><name>Tedarikcis</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1acdfad849fe1288813679eff37ad7da7f" kind="property"><name>Urunlers</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1afa38fd05508651acdb198363e8f825b4" kind="function"><name>StokTakipContext</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a03f789a99339ad2b0bf4df5deff71f14" kind="function"><name>sp_alterdiagram</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a88b056e4ddb84ef92c2560cf9967cd14" kind="function"><name>sp_creatediagram</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1affaaaed4495d327c11b97cfc00b3213e" kind="function"><name>sp_dropdiagram</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a49406d022824b9a088e6542a8ca219f7" kind="function"><name>sp_helpdiagramdefinition</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a564f5c457fe4a1c4ffe3900e725cd341" kind="function"><name>sp_helpdiagrams</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a6a3dab5c670bdf2b9a1bfc635d8d9ea4" kind="function"><name>sp_renamediagram</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a6c45c3af4e9c39186b8d919627b0e72f" kind="function"><name>sp_upgraddiagrams</name></member>
+    <member refid="class_stok_otomasyanu_1_1_stok_takip_context_1a04090ef6db19ac55028de6f341d9a71f" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1sysdiagram" kind="class"><name>StokOtomasyanu::sysdiagram</name>
+    <member refid="class_stok_otomasyanu_1_1sysdiagram_1a1c0a728820b501857858a90cc254eb2c" kind="property"><name>name</name></member>
+    <member refid="class_stok_otomasyanu_1_1sysdiagram_1afb1b3e29d50dccaa1a7dd47fb10319fd" kind="property"><name>principal_id</name></member>
+    <member refid="class_stok_otomasyanu_1_1sysdiagram_1a9f5c589c51ba01eca5c9759e4384d59b" kind="property"><name>diagram_id</name></member>
+    <member refid="class_stok_otomasyanu_1_1sysdiagram_1a8a747490e07e616953d2a4fd15323e9a" kind="property"><name>version</name></member>
+    <member refid="class_stok_otomasyanu_1_1sysdiagram_1a6612581b834174a7d3caac8d59845fcf" kind="property"><name>definition</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_tedarikci" kind="class"><name>StokOtomasyanu::Tedarikci</name>
+    <member refid="class_stok_otomasyanu_1_1_tedarikci_1a542029c52805ef33df6114aa4dca2ae9" kind="property"><name>TedarikciId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_tedarikci_1a46e6976bed95b6bd608bc61a06349ac3" kind="property"><name>TedarikciAdi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_tedarikci_1aabb30f9313733750a83f42aec75249eb" kind="property"><name>Urunlers</name></member>
+    <member refid="class_stok_otomasyanu_1_1_tedarikci_1af2fabab56deccdcceaf5e2c180cd5862" kind="function"><name>Tedarikci</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller" kind="class"><name>StokOtomasyanu::Controllers::TedarikciController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a0afdc2e5d6db5479a4465cff899d4d06" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a672619da689367328d2a4c2a2e668b10" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1aeb46215f6139fccbfab13bffe1e08ef7" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a810e80d4378cb97cbd703b454c17ced8" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1aa50e587e424e41ae89d650546bf06b08" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a13188de8887dae119f4108bc7855b899" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1a8d316fff340ab7005000c673506e33f7" kind="function"><name>Sil</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller_1ad99c28dd2bf375c3c9a78e24e4677932" kind="function"><name>Pdf</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller" kind="class"><name>StokOtomasyanu::Controllers::UrunController</name>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1aded5c42c1eef5065d96a4d6ab4112d82" kind="variable"><name>db</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ab00ddb403b5cc22f834da6d3244df143" kind="function"><name>Index</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1af933a40cfda9fe5331a08808382d3635" kind="function"><name>Ara</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a274480fd4a7bf8c2da7a76f3ce400cf2" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ac29487e0b0adc1952250287a84904f4f" kind="function"><name>Yeni</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a198eb413764c76119f40193231c806b3" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1ae5092ddaf3d0da3135fcc6110f294e5c" kind="function"><name>Duzenle</name></member>
+    <member refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller_1a349fcab07a4ddf7837cab948fcdeb49c" kind="function"><name>Sil</name></member>
+  </compound>
+  <compound refid="class_stok_otomasyanu_1_1_urunler" kind="class"><name>StokOtomasyanu::Urunler</name>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1afc98e9dc5a99cbfed826ad2bb547be47" kind="property"><name>UrunId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a922e5118ae50be56e6c2cf6da1d617b6" kind="property"><name>KategoriId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a01e0837c3281db3dddf796cfccead4a6" kind="property"><name>TedarikciId</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a62ffc819f6e3bb0f8ef1fcdabc0a3e92" kind="property"><name>UrunaAdi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a227d0d366b4d47d7d5503a1826b8db84" kind="property"><name>UrunBirimFiyati</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a5a73cdf39d04f7cb09253faf780bcd2d" kind="property"><name>SatinAlinmaTarihi</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1ad9e0bd3ace3fd5e85c783fa89c7fe04f" kind="property"><name>Stok</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a297835d27300ecdd90d88f65cdafb844" kind="property"><name>StokDurum</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1adba6e1e9ad39b7c3cffc659b40fb59f9" kind="property"><name>BolumID</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a6527d6d904b3192bd032f5fac2cfcc65" kind="property"><name>Atiklars</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a18c7e5cbfbbd558765203dbec91490af" kind="property"><name>Bolum</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1a4a09f983b57fd0b6d6d92589661c1082" kind="property"><name>BolumZimmets</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1adb2bb98dd13f0302f197d0126470900b" kind="property"><name>Kategoriler</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1aeed11187e54fff1df2c4eb21d8d1d6c8" kind="property"><name>KisiZimmets</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1acdccc0e42f2faeb57565ef89031ef1fa" kind="property"><name>Tedarikci</name></member>
+    <member refid="class_stok_otomasyanu_1_1_urunler_1af8bcfc95f11ffd2fb69e9f6f17a65eaf" kind="function"><name>Urunler</name></member>
+  </compound>
+  <compound refid="namespacei_text_sharp_1_1text" kind="namespace"><name>iTextSharp::text</name>
+  </compound>
+  <compound refid="namespacei_text_sharp_1_1text_1_1html_1_1simpleparser" kind="namespace"><name>iTextSharp::text::html::simpleparser</name>
+  </compound>
+  <compound refid="namespacei_text_sharp_1_1text_1_1pdf" kind="namespace"><name>iTextSharp::text::pdf</name>
+  </compound>
+  <compound refid="namespacei_text_sharp_1_1tool_1_1xml" kind="namespace"><name>iTextSharp::tool::xml</name>
+  </compound>
+  <compound refid="namespace_stok_otomasyanu" kind="namespace"><name>StokOtomasyanu</name>
+  </compound>
+  <compound refid="namespace_stok_otomasyanu_1_1_controllers" kind="namespace"><name>StokOtomasyanu::Controllers</name>
+  </compound>
+  <compound refid="namespace_stok_otomasyanu_1_1_security" kind="namespace"><name>StokOtomasyanu::Security</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity" kind="namespace"><name>System::Data::Entity</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_core_1_1_objects" kind="namespace"><name>System::Data::Entity::Core::Objects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_infrastructure" kind="namespace"><name>System::Data::Entity::Infrastructure</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_mvc" kind="namespace"><name>System::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_routing" kind="namespace"><name>System::Web::Routing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_security" kind="namespace"><name>System::Web::Security</name>
+  </compound>
+  <compound refid="_route_config_8cs" kind="file"><name>RouteConfig.cs</name>
+  </compound>
+  <compound refid="_atiklar_8cs" kind="file"><name>Atiklar.cs</name>
+  </compound>
+  <compound refid="_bolum_8cs" kind="file"><name>Bolum.cs</name>
+  </compound>
+  <compound refid="_bolum_zimmet_8cs" kind="file"><name>BolumZimmet.cs</name>
+  </compound>
+  <compound refid="_c_____migration_history_8cs" kind="file"><name>C__MigrationHistory.cs</name>
+  </compound>
+  <compound refid="_atik_controller_8cs" kind="file"><name>AtikController.cs</name>
+  </compound>
+  <compound refid="_bolum_controller_8cs" kind="file"><name>BolumController.cs</name>
+  </compound>
+  <compound refid="_bolum_zimmet_controller_8cs" kind="file"><name>BolumZimmetController.cs</name>
+  </compound>
+  <compound refid="_kategori_controller_8cs" kind="file"><name>KategoriController.cs</name>
+  </compound>
+  <compound refid="_kisi_zimmet_controller_8cs" kind="file"><name>KisiZimmetController.cs</name>
+  </compound>
+  <compound refid="_kullanici_controller_8cs" kind="file"><name>KullaniciController.cs</name>
+  </compound>
+  <compound refid="_security_controller_8cs" kind="file"><name>SecurityController.cs</name>
+  </compound>
+  <compound refid="_tedarikci_controller_8cs" kind="file"><name>TedarikciController.cs</name>
+  </compound>
+  <compound refid="_urun_controller_8cs" kind="file"><name>UrunController.cs</name>
+  </compound>
+  <compound refid="_global_8asax_8cs" kind="file"><name>Global.asax.cs</name>
+  </compound>
+  <compound refid="_kategoriler_8cs" kind="file"><name>Kategoriler.cs</name>
+  </compound>
+  <compound refid="_kisi_zimmet_8cs" kind="file"><name>KisiZimmet.cs</name>
+  </compound>
+  <compound refid="_kullanicilar_8cs" kind="file"><name>Kullanicilar.cs</name>
+  </compound>
+  <compound refid="_model1_8_context_8cs" kind="file"><name>Model1.Context.cs</name>
+  </compound>
+  <compound refid="_model1_8cs" kind="file"><name>Model1.cs</name>
+  </compound>
+  <compound refid="_model1_8_designer_8cs" kind="file"><name>Model1.Designer.cs</name>
+  </compound>
+  <compound refid="obj_2_debug_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="_tests_2obj_2_debug_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="obj_2_debug_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="_tests_2obj_2_debug_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="obj_2_debug_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_tests_2obj_2_debug_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_tests_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_roller_8cs" kind="file"><name>Roller.cs</name>
+  </compound>
+  <compound refid="_personel_role_provider_8cs" kind="file"><name>PersonelRoleProvider.cs</name>
+  </compound>
+  <compound refid="sp__helpdiagramdefinition___result_8cs" kind="file"><name>sp_helpdiagramdefinition_Result.cs</name>
+  </compound>
+  <compound refid="sp__helpdiagrams___result_8cs" kind="file"><name>sp_helpdiagrams_Result.cs</name>
+  </compound>
+  <compound refid="sysdiagram_8cs" kind="file"><name>sysdiagram.cs</name>
+  </compound>
+  <compound refid="_tedarikci_8cs" kind="file"><name>Tedarikci.cs</name>
+  </compound>
+  <compound refid="_urunler_8cs" kind="file"><name>Urunler.cs</name>
+  </compound>
+  <compound refid="dir_8c4f68ac407e02fe2b454b3a363c6d93" kind="dir"><name>App_Start</name>
+  </compound>
+  <compound refid="dir_419aabc6adc1b3b494e574fbe504aebd" kind="dir"><name>Controllers</name>
+  </compound>
+  <compound refid="dir_b94cabfbaaf874e0b2499218224113fd" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_0abb45b822884285c682f1f565e05f41" kind="dir"><name>C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests/obj/Debug</name>
+  </compound>
+  <compound refid="dir_cbef8dee5ca498e52fdc0e99fc95ec2e" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_196519c8948e9e94e0211ef373472d86" kind="dir"><name>C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests/obj</name>
+  </compound>
+  <compound refid="dir_24aafd0f27776fde491f265d354982bd" kind="dir"><name>C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests/Properties</name>
+  </compound>
+  <compound refid="dir_88086eae03ab0c5f8b1aaeccdbf3e29f" kind="dir"><name>Properties</name>
+  </compound>
+  <compound refid="dir_ad6a59eb70909036e8dfe8a985a59947" kind="dir"><name>Security</name>
+  </compound>
+  <compound refid="dir_b21836309dc8eb4a9902fd5ab8779512" kind="dir"><name>C:/Users/Mehmet/source/repos/StokOtomasyanu/StokOtomasyanu.Tests</name>
+  </compound>
+</doxygenindex>

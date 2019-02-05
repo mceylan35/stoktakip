@@ -1,0 +1,72 @@
+﻿@using System.Drawing
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Stok Takip Otomasyonu</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Ürünler", "Index", "Urun", new { area = "" }, new { @class = "navbar-brand" })
+                @if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+                {
+                    @Html.ActionLink("Kullanıcı", "Index", "Kullanici", new { area = "" }, new { @class = "navbar-brand" })
+                }
+
+                @Html.ActionLink("Atıklar", "Index", "Atik", new { area = "" }, new { @class = "navbar-brand" })
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Tedarikçi", "Index", "Tedarikci", new { area = "" }, new { @class = "navbar-brand" })
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Kategori", "Index", "Kategori", new { area = "" }, new { @class = "navbar-brand" })
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Bölüm", "Index", "Bolum", new { area = "" }, new { @class = "navbar-brand" })
+                }
+
+
+                @Html.ActionLink("Kişi Zimmet", "Index", "KisiZimmet", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Bölüm Zimmet", "Index", "BolumZimmet", new { area = "" }, new { @class = "navbar-brand" }) |
+                <p class="navbar-brand">Hoş Geldiniz @HttpContext.Current.User.Identity.Name</p>
+
+                <a href="/Security/LogOut" class="navbar-brand text-danger">Çıkış</a>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+
+        <div class="row">
+            <div class="col-md-12">
+                @RenderBody()
+            </div>
+
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Stok Takip</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

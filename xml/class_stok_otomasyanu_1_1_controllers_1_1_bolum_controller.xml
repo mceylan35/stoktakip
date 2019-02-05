@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::BolumController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1aac2bf21950a3f1ec0162553f71c6847c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.BolumController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="16" column="1" bodyfile="Controllers/BolumController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a7ed500e64d975a5f574287d6b75637fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.BolumController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="19" column="1" bodyfile="Controllers/BolumController.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a4595e5c86e532440a576e7b394fdc37a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.BolumController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="27" column="1" bodyfile="Controllers/BolumController.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a5a2614523ce051c9821fad5e00d12080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.BolumController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;BolumId,BolumAdi&quot;)] Bolum bolum)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;BolumId,BolumAdi&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_bolum" kindref="compound">Bolum</ref></type>
+          <declname>bolum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="35" column="1" bodyfile="Controllers/BolumController.cs" bodystart="35" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a103d82a03af54a651bbb81c15c24f2e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.BolumController.Duzenle</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="59" column="1" bodyfile="Controllers/BolumController.cs" bodystart="59" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1afba3ff8c12a9ba75c1dfb62ed5374df1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.BolumController.Duzenle</definition>
+        <argsstring>([Bind(Include=&quot;BolumId,BolumAdi&quot;)] Bolum bolum)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <attributes>[Bind(Include=&quot;BolumId,BolumAdi&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_bolum" kindref="compound">Bolum</ref></type>
+          <declname>bolum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="76" column="1" bodyfile="Controllers/BolumController.cs" bodystart="76" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a0f9ba4040522a8b23b26d727d6d56d1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.BolumController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BolumController.cs" line="98" column="1" bodyfile="Controllers/BolumController.cs" bodystart="98" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>StokOtomasyanu.Controllers.BolumController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>StokOtomasyanu.Controllers.BolumController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/BolumController.cs" line="15" column="1" bodyfile="Controllers/BolumController.cs" bodystart="14" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1aac2bf21950a3f1ec0162553f71c6847c" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a103d82a03af54a651bbb81c15c24f2e5" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1afba3ff8c12a9ba75c1dfb62ed5374df1" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a7ed500e64d975a5f574287d6b75637fd" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a0f9ba4040522a8b23b26d727d6d56d1b" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a4595e5c86e532440a576e7b394fdc37a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller_1a5a2614523ce051c9821fad5e00d12080" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::BolumController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="StokTakipModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+          <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Atiklars">
+          <Key>
+            <PropertyRef Name="AtikId" />
+          </Key>
+          <Property Name="AtikId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UrunId" Type="int" />
+        </EntityType>
+        <EntityType Name="Bolums">
+          <Key>
+            <PropertyRef Name="BolumId" />
+          </Key>
+          <Property Name="BolumId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BolumAdi" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="BolumZimmet">
+          <Key>
+            <PropertyRef Name="BolumZimmetId" />
+          </Key>
+          <Property Name="BolumZimmetId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BolumId" Type="int" Nullable="false" />
+          <Property Name="UrunId" Type="int" Nullable="false" />
+          <Property Name="Durum" Type="bit" />
+        </EntityType>
+        <EntityType Name="Kategorilers">
+          <Key>
+            <PropertyRef Name="KategoriId" />
+          </Key>
+          <Property Name="KategoriId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KategoriAdi" Type="nvarchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KisiZimmet">
+          <Key>
+            <PropertyRef Name="KisiZimmetId" />
+          </Key>
+          <Property Name="KisiZimmetId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KisiId" Type="int" Nullable="false" />
+          <Property Name="UrunId" Type="int" Nullable="false" />
+          <Property Name="Durum" Type="bit" />
+        </EntityType>
+        <EntityType Name="Kullanicilars">
+          <Key>
+            <PropertyRef Name="KullaniciId" />
+          </Key>
+          <Property Name="KullaniciId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="Sifre" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="RoleId" Type="int" />
+          <Property Name="BolumId" Type="int" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rollers">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RolAdi" Type="nvarchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Tedarikcis">
+          <Key>
+            <PropertyRef Name="TedarikciId" />
+          </Key>
+          <Property Name="TedarikciId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TedarikciAdi" Type="nvarchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Urunlers">
+          <Key>
+            <PropertyRef Name="UrunId" />
+          </Key>
+          <Property Name="UrunId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KategoriId" Type="int" />
+          <Property Name="TedarikciId" Type="int" />
+          <Property Name="UrunaAdi" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="UrunBirimFiyati" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="SatinAlinmaTarihi" Type="datetime" />
+          <Property Name="Stok" Type="int" Nullable="false" />
+          <Property Name="StokDurum" Type="bit" Nullable="false" />
+          <Property Name="BolumID" Type="int" />
+        </EntityType>
+        <Association Name="FK_Atiklars_Urunlers">
+          <End Role="Urunlers" Type="Self.Urunlers" Multiplicity="0..1" />
+          <End Role="Atiklars" Type="Self.Atiklars" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunlers">
+              <PropertyRef Name="UrunId" />
+            </Principal>
+            <Dependent Role="Atiklars">
+              <PropertyRef Name="UrunId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BolumZimmet_Bolums1">
+          <End Role="Bolums" Type="Self.Bolums" Multiplicity="1" />
+          <End Role="BolumZimmet" Type="Self.BolumZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolums">
+              <PropertyRef Name="BolumId" />
+            </Principal>
+            <Dependent Role="BolumZimmet">
+              <PropertyRef Name="BolumId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BolumZimmet_Urunlers1">
+          <End Role="Urunlers" Type="Self.Urunlers" Multiplicity="1" />
+          <End Role="BolumZimmet" Type="Self.BolumZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunlers">
+              <PropertyRef Name="UrunId" />
+            </Principal>
+            <Dependent Role="BolumZimmet">
+              <PropertyRef Name="UrunId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Urunlers_dbo_Kategorilers_KategoriId">
+          <End Role="Kategorilers" Type="Self.Kategorilers" Multiplicity="0..1" />
+          <End Role="Urunlers" Type="Self.Urunlers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategorilers">
+              <PropertyRef Name="KategoriId" />
+            </Principal>
+            <Dependent Role="Urunlers">
+              <PropertyRef Name="KategoriId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId">
+          <End Role="Tedarikcis" Type="Self.Tedarikcis" Multiplicity="0..1" />
+          <End Role="Urunlers" Type="Self.Urunlers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tedarikcis">
+              <PropertyRef Name="TedarikciId" />
+            </Principal>
+            <Dependent Role="Urunlers">
+              <PropertyRef Name="TedarikciId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KisiZimmet_Kullanicilars">
+          <End Role="Kullanicilars" Type="Self.Kullanicilars" Multiplicity="1" />
+          <End Role="KisiZimmet" Type="Self.KisiZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kullanicilars">
+              <PropertyRef Name="KullaniciId" />
+            </Principal>
+            <Dependent Role="KisiZimmet">
+              <PropertyRef Name="KisiId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KisiZimmet_Urunlers">
+          <End Role="Urunlers" Type="Self.Urunlers" Multiplicity="1" />
+          <End Role="KisiZimmet" Type="Self.KisiZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunlers">
+              <PropertyRef Name="UrunId" />
+            </Principal>
+            <Dependent Role="KisiZimmet">
+              <PropertyRef Name="UrunId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanicilars_Bolums">
+          <End Role="Bolums" Type="Self.Bolums" Multiplicity="0..1" />
+          <End Role="Kullanicilars" Type="Self.Kullanicilars" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolums">
+              <PropertyRef Name="BolumId" />
+            </Principal>
+            <Dependent Role="Kullanicilars">
+              <PropertyRef Name="BolumId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanicilars_Rollers">
+          <End Role="Rollers" Type="Self.Rollers" Multiplicity="0..1" />
+          <End Role="Kullanicilars" Type="Self.Kullanicilars" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rollers">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="Kullanicilars">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Urunlers_Bolums1">
+          <End Role="Bolums" Type="Self.Bolums" Multiplicity="0..1" />
+          <End Role="Urunlers" Type="Self.Urunlers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolums">
+              <PropertyRef Name="BolumId" />
+            </Principal>
+            <Dependent Role="Urunlers">
+              <PropertyRef Name="BolumID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="StokTakipModelStoreContainer">
+          <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Atiklars" EntityType="Self.Atiklars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bolums" EntityType="Self.Bolums" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BolumZimmet" EntityType="Self.BolumZimmet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kategorilers" EntityType="Self.Kategorilers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KisiZimmet" EntityType="Self.KisiZimmet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kullanicilars" EntityType="Self.Kullanicilars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Rollers" EntityType="Self.Rollers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tedarikcis" EntityType="Self.Tedarikcis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Urunlers" EntityType="Self.Urunlers" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Atiklars_Urunlers" Association="Self.FK_Atiklars_Urunlers">
+            <End Role="Urunlers" EntitySet="Urunlers" />
+            <End Role="Atiklars" EntitySet="Atiklars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BolumZimmet_Bolums1" Association="Self.FK_BolumZimmet_Bolums1">
+            <End Role="Bolums" EntitySet="Bolums" />
+            <End Role="BolumZimmet" EntitySet="BolumZimmet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BolumZimmet_Urunlers1" Association="Self.FK_BolumZimmet_Urunlers1">
+            <End Role="Urunlers" EntitySet="Urunlers" />
+            <End Role="BolumZimmet" EntitySet="BolumZimmet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Urunlers_dbo_Kategorilers_KategoriId" Association="Self.FK_dbo_Urunlers_dbo_Kategorilers_KategoriId">
+            <End Role="Kategorilers" EntitySet="Kategorilers" />
+            <End Role="Urunlers" EntitySet="Urunlers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId" Association="Self.FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId">
+            <End Role="Tedarikcis" EntitySet="Tedarikcis" />
+            <End Role="Urunlers" EntitySet="Urunlers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KisiZimmet_Kullanicilars" Association="Self.FK_KisiZimmet_Kullanicilars">
+            <End Role="Kullanicilars" EntitySet="Kullanicilars" />
+            <End Role="KisiZimmet" EntitySet="KisiZimmet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KisiZimmet_Urunlers" Association="Self.FK_KisiZimmet_Urunlers">
+            <End Role="Urunlers" EntitySet="Urunlers" />
+            <End Role="KisiZimmet" EntitySet="KisiZimmet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanicilars_Bolums" Association="Self.FK_Kullanicilars_Bolums">
+            <End Role="Bolums" EntitySet="Bolums" />
+            <End Role="Kullanicilars" EntitySet="Kullanicilars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanicilars_Rollers" Association="Self.FK_Kullanicilars_Rollers">
+            <End Role="Rollers" EntitySet="Rollers" />
+            <End Role="Kullanicilars" EntitySet="Kullanicilars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Urunlers_Bolums1" Association="Self.FK_Urunlers_Bolums1">
+            <End Role="Bolums" EntitySet="Bolums" />
+            <End Role="Urunlers" EntitySet="Urunlers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StokTakipModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Atiklar">
+          <Key>
+            <PropertyRef Name="AtikId" />
+          </Key>
+          <Property Name="AtikId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UrunId" Type="Int32" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK_Atiklars_Urunlers" FromRole="Atiklars" ToRole="Urunlers" />
+        </EntityType>
+        <EntityType Name="Bolum">
+          <Key>
+            <PropertyRef Name="BolumId" />
+          </Key>
+          <Property Name="BolumId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BolumAdi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="BolumZimmets" Relationship="Self.FK_BolumZimmet_Bolums1" FromRole="Bolums" ToRole="BolumZimmet" />
+          <NavigationProperty Name="Kullanicilars" Relationship="Self.FK_Kullanicilars_Bolums" FromRole="Bolums" ToRole="Kullanicilars" />
+          <NavigationProperty Name="Urunlers" Relationship="Self.FK_Urunlers_Bolums1" FromRole="Bolums" ToRole="Urunlers" />
+        </EntityType>
+        <EntityType Name="BolumZimmet">
+          <Key>
+            <PropertyRef Name="BolumZimmetId" />
+          </Key>
+          <Property Name="BolumZimmetId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BolumId" Type="Int32" Nullable="false" />
+          <Property Name="UrunId" Type="Int32" Nullable="false" />
+          <Property Name="Durum" Type="Boolean" />
+          <NavigationProperty Name="Bolum" Relationship="Self.FK_BolumZimmet_Bolums1" FromRole="BolumZimmet" ToRole="Bolums" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK_BolumZimmet_Urunlers1" FromRole="BolumZimmet" ToRole="Urunlers" />
+        </EntityType>
+        <EntityType Name="Kategoriler">
+          <Key>
+            <PropertyRef Name="KategoriId" />
+          </Key>
+          <Property Name="KategoriId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KategoriAdi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Urunlers" Relationship="Self.FK_dbo_Urunlers_dbo_Kategorilers_KategoriId" FromRole="Kategorilers" ToRole="Urunlers" />
+        </EntityType>
+        <EntityType Name="KisiZimmet">
+          <Key>
+            <PropertyRef Name="KisiZimmetId" />
+          </Key>
+          <Property Name="KisiZimmetId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KisiId" Type="Int32" Nullable="false" />
+          <Property Name="UrunId" Type="Int32" Nullable="false" />
+          <Property Name="Durum" Type="Boolean" />
+          <NavigationProperty Name="Kullanicilar" Relationship="Self.FK_KisiZimmet_Kullanicilars" FromRole="KisiZimmet" ToRole="Kullanicilars" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK_KisiZimmet_Urunlers" FromRole="KisiZimmet" ToRole="Urunlers" />
+        </EntityType>
+        <EntityType Name="Kullanicilar">
+          <Key>
+            <PropertyRef Name="KullaniciId" />
+          </Key>
+          <Property Name="KullaniciId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KullaniciAdi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Sifre" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RoleId" Type="Int32" />
+          <Property Name="BolumId" Type="Int32" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Bolum" Relationship="Self.FK_Kullanicilars_Bolums" FromRole="Kullanicilars" ToRole="Bolums" />
+          <NavigationProperty Name="KisiZimmets" Relationship="Self.FK_KisiZimmet_Kullanicilars" FromRole="Kullanicilars" ToRole="KisiZimmet" />
+          <NavigationProperty Name="Roller" Relationship="Self.FK_Kullanicilars_Rollers" FromRole="Kullanicilars" ToRole="Rollers" />
+        </EntityType>
+        <EntityType Name="Roller">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RolAdi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Kullanicilars" Relationship="Self.FK_Kullanicilars_Rollers" FromRole="Rollers" ToRole="Kullanicilars" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tedarikci">
+          <Key>
+            <PropertyRef Name="TedarikciId" />
+          </Key>
+          <Property Name="TedarikciId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TedarikciAdi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Urunlers" Relationship="Self.FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId" FromRole="Tedarikcis" ToRole="Urunlers" />
+        </EntityType>
+        <EntityType Name="Urunler">
+          <Key>
+            <PropertyRef Name="UrunId" />
+          </Key>
+          <Property Name="UrunId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KategoriId" Type="Int32" />
+          <Property Name="TedarikciId" Type="Int32" />
+          <Property Name="UrunaAdi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UrunBirimFiyati" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="SatinAlinmaTarihi" Type="DateTime" Precision="3" />
+          <Property Name="Stok" Type="Int32" Nullable="false" />
+          <Property Name="StokDurum" Type="Boolean" Nullable="false" />
+          <Property Name="BolumID" Type="Int32" />
+          <NavigationProperty Name="Atiklars" Relationship="Self.FK_Atiklars_Urunlers" FromRole="Urunlers" ToRole="Atiklars" />
+          <NavigationProperty Name="Bolum" Relationship="Self.FK_Urunlers_Bolums1" FromRole="Urunlers" ToRole="Bolums" />
+          <NavigationProperty Name="BolumZimmets" Relationship="Self.FK_BolumZimmet_Urunlers1" FromRole="Urunlers" ToRole="BolumZimmet" />
+          <NavigationProperty Name="Kategoriler" Relationship="Self.FK_dbo_Urunlers_dbo_Kategorilers_KategoriId" FromRole="Urunlers" ToRole="Kategorilers" />
+          <NavigationProperty Name="KisiZimmets" Relationship="Self.FK_KisiZimmet_Urunlers" FromRole="Urunlers" ToRole="KisiZimmet" />
+          <NavigationProperty Name="Tedarikci" Relationship="Self.FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId" FromRole="Urunlers" ToRole="Tedarikcis" />
+        </EntityType>
+        <Association Name="FK_Atiklars_Urunlers">
+          <End Role="Urunlers" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Atiklars" Type="Self.Atiklar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunlers">
+              <PropertyRef Name="UrunId" />
+            </Principal>
+            <Dependent Role="Atiklars">
+              <PropertyRef Name="UrunId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BolumZimmet_Bolums1">
+          <End Role="Bolums" Type="Self.Bolum" Multiplicity="1" />
+          <End Role="BolumZimmet" Type="Self.BolumZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolums">
+              <PropertyRef Name="BolumId" />
+            </Principal>
+            <Dependent Role="BolumZimmet">
+              <PropertyRef Name="BolumId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanicilars_Bolums">
+          <End Role="Bolums" Type="Self.Bolum" Multiplicity="0..1" />
+          <End Role="Kullanicilars" Type="Self.Kullanicilar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolums">
+              <PropertyRef Name="BolumId" />
+            </Principal>
+            <Dependent Role="Kullanicilars">
+              <PropertyRef Name="BolumId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Urunlers_Bolums1">
+          <End Role="Bolums" Type="Self.Bolum" Multiplicity="0..1" />
+          <End Role="Urunlers" Type="Self.Urunler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolums">
+              <PropertyRef Name="BolumId" />
+            </Principal>
+            <Dependent Role="Urunlers">
+              <PropertyRef Name="BolumID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BolumZimmet_Urunlers1">
+          <End Role="Urunlers" Type="Self.Urunler" Multiplicity="1" />
+          <End Role="BolumZimmet" Type="Self.BolumZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunlers">
+              <PropertyRef Name="UrunId" />
+            </Principal>
+            <Dependent Role="BolumZimmet">
+              <PropertyRef Name="UrunId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Urunlers_dbo_Kategorilers_KategoriId">
+          <End Role="Kategorilers" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Urunlers" Type="Self.Urunler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategorilers">
+              <PropertyRef Name="KategoriId" />
+            </Principal>
+            <Dependent Role="Urunlers">
+              <PropertyRef Name="KategoriId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KisiZimmet_Kullanicilars">
+          <End Role="Kullanicilars" Type="Self.Kullanicilar" Multiplicity="1" />
+          <End Role="KisiZimmet" Type="Self.KisiZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kullanicilars">
+              <PropertyRef Name="KullaniciId" />
+            </Principal>
+            <Dependent Role="KisiZimmet">
+              <PropertyRef Name="KisiId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KisiZimmet_Urunlers">
+          <End Role="Urunlers" Type="Self.Urunler" Multiplicity="1" />
+          <End Role="KisiZimmet" Type="Self.KisiZimmet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunlers">
+              <PropertyRef Name="UrunId" />
+            </Principal>
+            <Dependent Role="KisiZimmet">
+              <PropertyRef Name="UrunId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanicilars_Rollers">
+          <End Role="Rollers" Type="Self.Roller" Multiplicity="0..1" />
+          <End Role="Kullanicilars" Type="Self.Kullanicilar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rollers">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="Kullanicilars">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId">
+          <End Role="Tedarikcis" Type="Self.Tedarikci" Multiplicity="0..1" />
+          <End Role="Urunlers" Type="Self.Urunler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tedarikcis">
+              <PropertyRef Name="TedarikciId" />
+            </Principal>
+            <Dependent Role="Urunlers">
+              <PropertyRef Name="TedarikciId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="StokTakipContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+          <EntitySet Name="Atiklars" EntityType="Self.Atiklar" />
+          <EntitySet Name="Bolums" EntityType="Self.Bolum" />
+          <EntitySet Name="BolumZimmets" EntityType="Self.BolumZimmet" />
+          <EntitySet Name="Kategorilers" EntityType="Self.Kategoriler" />
+          <EntitySet Name="KisiZimmets" EntityType="Self.KisiZimmet" />
+          <EntitySet Name="Kullanicilars" EntityType="Self.Kullanicilar" />
+          <EntitySet Name="Rollers" EntityType="Self.Roller" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="Tedarikcis" EntityType="Self.Tedarikci" />
+          <EntitySet Name="Urunlers" EntityType="Self.Urunler" />
+          <AssociationSet Name="FK_Atiklars_Urunlers" Association="Self.FK_Atiklars_Urunlers">
+            <End Role="Urunlers" EntitySet="Urunlers" />
+            <End Role="Atiklars" EntitySet="Atiklars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BolumZimmet_Bolums1" Association="Self.FK_BolumZimmet_Bolums1">
+            <End Role="Bolums" EntitySet="Bolums" />
+            <End Role="BolumZimmet" EntitySet="BolumZimmets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanicilars_Bolums" Association="Self.FK_Kullanicilars_Bolums">
+            <End Role="Bolums" EntitySet="Bolums" />
+            <End Role="Kullanicilars" EntitySet="Kullanicilars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Urunlers_Bolums1" Association="Self.FK_Urunlers_Bolums1">
+            <End Role="Bolums" EntitySet="Bolums" />
+            <End Role="Urunlers" EntitySet="Urunlers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BolumZimmet_Urunlers1" Association="Self.FK_BolumZimmet_Urunlers1">
+            <End Role="Urunlers" EntitySet="Urunlers" />
+            <End Role="BolumZimmet" EntitySet="BolumZimmets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Urunlers_dbo_Kategorilers_KategoriId" Association="Self.FK_dbo_Urunlers_dbo_Kategorilers_KategoriId">
+            <End Role="Kategorilers" EntitySet="Kategorilers" />
+            <End Role="Urunlers" EntitySet="Urunlers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KisiZimmet_Kullanicilars" Association="Self.FK_KisiZimmet_Kullanicilars">
+            <End Role="Kullanicilars" EntitySet="Kullanicilars" />
+            <End Role="KisiZimmet" EntitySet="KisiZimmets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KisiZimmet_Urunlers" Association="Self.FK_KisiZimmet_Urunlers">
+            <End Role="Urunlers" EntitySet="Urunlers" />
+            <End Role="KisiZimmet" EntitySet="KisiZimmets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanicilars_Rollers" Association="Self.FK_Kullanicilars_Rollers">
+            <End Role="Rollers" EntitySet="Rollers" />
+            <End Role="Kullanicilars" EntitySet="Kullanicilars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId" Association="Self.FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId">
+            <End Role="Tedarikcis" EntitySet="Tedarikcis" />
+            <End Role="Urunlers" EntitySet="Urunlers" />
+          </AssociationSet>
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(StokTakipModel.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(StokTakipModel.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+        </EntityContainer>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="StokTakipModelStoreContainer" CdmEntityContainer="StokTakipContext">
+          <EntitySetMapping Name="C__MigrationHistory">
+            <EntityTypeMapping TypeName="StokTakipModel.C__MigrationHistory">
+              <MappingFragment StoreEntitySet="__MigrationHistory">
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+                <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Atiklars">
+            <EntityTypeMapping TypeName="StokTakipModel.Atiklar">
+              <MappingFragment StoreEntitySet="Atiklars">
+                <ScalarProperty Name="AtikId" ColumnName="AtikId" />
+                <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bolums">
+            <EntityTypeMapping TypeName="StokTakipModel.Bolum">
+              <MappingFragment StoreEntitySet="Bolums">
+                <ScalarProperty Name="BolumId" ColumnName="BolumId" />
+                <ScalarProperty Name="BolumAdi" ColumnName="BolumAdi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BolumZimmets">
+            <EntityTypeMapping TypeName="StokTakipModel.BolumZimmet">
+              <MappingFragment StoreEntitySet="BolumZimmet">
+                <ScalarProperty Name="BolumZimmetId" ColumnName="BolumZimmetId" />
+                <ScalarProperty Name="BolumId" ColumnName="BolumId" />
+                <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kategorilers">
+            <EntityTypeMapping TypeName="StokTakipModel.Kategoriler">
+              <MappingFragment StoreEntitySet="Kategorilers">
+                <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+                <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KisiZimmets">
+            <EntityTypeMapping TypeName="StokTakipModel.KisiZimmet">
+              <MappingFragment StoreEntitySet="KisiZimmet">
+                <ScalarProperty Name="KisiZimmetId" ColumnName="KisiZimmetId" />
+                <ScalarProperty Name="KisiId" ColumnName="KisiId" />
+                <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kullanicilars">
+            <EntityTypeMapping TypeName="StokTakipModel.Kullanicilar">
+              <MappingFragment StoreEntitySet="Kullanicilars">
+                <ScalarProperty Name="KullaniciId" ColumnName="KullaniciId" />
+                <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+                <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="BolumId" ColumnName="BolumId" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rollers">
+            <EntityTypeMapping TypeName="StokTakipModel.Roller">
+              <MappingFragment StoreEntitySet="Rollers">
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="RolAdi" ColumnName="RolAdi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="StokTakipModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tedarikcis">
+            <EntityTypeMapping TypeName="StokTakipModel.Tedarikci">
+              <MappingFragment StoreEntitySet="Tedarikcis">
+                <ScalarProperty Name="TedarikciId" ColumnName="TedarikciId" />
+                <ScalarProperty Name="TedarikciAdi" ColumnName="TedarikciAdi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Urunlers">
+            <EntityTypeMapping TypeName="StokTakipModel.Urunler">
+              <MappingFragment StoreEntitySet="Urunlers">
+                <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+                <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+                <ScalarProperty Name="TedarikciId" ColumnName="TedarikciId" />
+                <ScalarProperty Name="UrunaAdi" ColumnName="UrunaAdi" />
+                <ScalarProperty Name="UrunBirimFiyati" ColumnName="UrunBirimFiyati" />
+                <ScalarProperty Name="SatinAlinmaTarihi" ColumnName="SatinAlinmaTarihi" />
+                <ScalarProperty Name="Stok" ColumnName="Stok" />
+                <ScalarProperty Name="StokDurum" ColumnName="StokDurum" />
+                <ScalarProperty Name="BolumID" ColumnName="BolumID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="StokTakipModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="StokTakipModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="StokTakipModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="StokTakipModel.Store.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="StokTakipModel.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="StokTakipModel.Store.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="StokTakipModel.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="StokTakipModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="StokTakipModel.Store.sp_upgraddiagrams" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

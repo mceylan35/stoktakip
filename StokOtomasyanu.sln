@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokOtomasyanu", "StokOtomasyanu\StokOtomasyanu.csproj", "{901CFFAD-70AC-4E18-81C3-6F34F4E267BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokOtomasyanu.Tests", "StokOtomasyanu.Tests\StokOtomasyanu.Tests.csproj", "{E9C7B924-3521-4C8E-AA55-0FE97ED3705C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{901CFFAD-70AC-4E18-81C3-6F34F4E267BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901CFFAD-70AC-4E18-81C3-6F34F4E267BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901CFFAD-70AC-4E18-81C3-6F34F4E267BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901CFFAD-70AC-4E18-81C3-6F34F4E267BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C7B924-3521-4C8E-AA55-0FE97ED3705C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C7B924-3521-4C8E-AA55-0FE97ED3705C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C7B924-3521-4C8E-AA55-0FE97ED3705C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C7B924-3521-4C8E-AA55-0FE97ED3705C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA5548CE-9BE7-4792-88F4-D75E7159ECE0}
+	EndGlobalSection
+EndGlobal

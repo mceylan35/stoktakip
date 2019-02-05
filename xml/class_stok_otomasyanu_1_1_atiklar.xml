@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_atiklar" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Atiklar</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_atiklar_1ad18e119b2fdab47d9177105a3ba61337" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.Atiklar.AtikId</definition>
+        <argsstring></argsstring>
+        <name>AtikId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Atiklar.cs" line="17" column="1" bodyfile="Atiklar.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_atiklar_1ad75da213395ea0982d58371c1eccc4dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; StokOtomasyanu.Atiklar.UrunId</definition>
+        <argsstring></argsstring>
+        <name>UrunId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Atiklar.cs" line="18" column="1" bodyfile="Atiklar.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_atiklar_1ab111102b416a761d1988fa7120730710" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref></type>
+        <definition>virtual Urunler StokOtomasyanu.Atiklar.Urunler</definition>
+        <argsstring></argsstring>
+        <name>Urunler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Atiklar.cs" line="20" column="1" bodyfile="Atiklar.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Atiklar.cs" line="16" column="1" bodyfile="Atiklar.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_atiklar_1ad18e119b2fdab47d9177105a3ba61337" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Atiklar</scope><name>AtikId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_atiklar_1ad75da213395ea0982d58371c1eccc4dd" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Atiklar</scope><name>UrunId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_atiklar_1ab111102b416a761d1988fa7120730710" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Atiklar</scope><name>Urunler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+﻿@model StokOtomasyanu.Kullanicilar
+@{
+    Layout = null;
+}
+
+
+
+
+<html>
+<head>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="~/Content/stil.css" rel="stylesheet" />
+</head>
+<body id="LoginForm">
+    <div class="container">
+        <h1 class="form-heading">Giriş</h1>
+        <div class="login-form">
+            <div class="main-div">
+                <div class="panel">
+                    <h2>Admin Login</h2>
+                    <p>Kullanıcı adı ve Şifrenizi Giriniz:</p>
+                </div>
+                <div id="Login">
+                    <p style="color: red;">@ViewBag.Mesaj</p>
+                    @using (Html.BeginForm("Login", "Security", FormMethod.Post))
+                    {
+                        <div class="form-group">
+
+                            @Html.TextBoxFor(x => x.KullaniciAdi, "", htmlAttributes: new { @class = "form-control", placeholder = "Kullanıcı adı giriniz:" })
+
+
+
+                        </div>
+
+                        <div class="form-group">
+
+                            @Html.PasswordFor(x => x.Sifre, htmlAttributes: new { @class = "form-control", placeholder = "Şifreyi Giriniz." })
+
+                        </div>
+                        
+                        <button type="submit" class="btn btn-block btn-success">Giriş</button>
+                    }
+                </div>
+            </div>
+            <p class="botto-text">Stok Takip Otomasyonu</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

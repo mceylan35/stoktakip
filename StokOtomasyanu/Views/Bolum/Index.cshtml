@@ -1,0 +1,68 @@
+﻿@model IEnumerable<StokOtomasyanu.Bolum>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+@if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+{
+    @Html.ActionLink("Yeni", "Yeni", "", htmlAttributes: new {@class = "btn btn-success"})
+}
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Bölüm Adı
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BolumAdi)
+        </td>
+        <td>
+        @if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+        {
+            @Html.ActionLink("Düzenle", "Duzenle", new {id = item.BolumId}, htmlAttributes: new {@class = "btn btn-warning"})
+
+            <a href="#" class="btn btn-danger bolumsil" data-bolid="@item.BolumId">Sil</a>
+        }
+        </td>
+    </tr>
+}
+
+</table>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+
+    $(".bolumsil").click(function () {
+        var sonuc=confirm("Kayıt Silinsin mi?");
+        if (sonuc) {
+            var bolid = $(this).data("bolid");
+            $.ajax({
+                type: "POST",
+                url: "/Bolum/Sil/" + bolid,
+                success: function(parameters) {
+                    alert("Kayıt Silindi");
+                    window.location.replace("/Bolum/Index");
+                },
+                error: function() {
+                    alert("kayıt silme sırasında hata oluştu");
+                }
+
+
+
+            });
+
+        } else {
+            alert("iptal edildi");
+
+        }
+                
+    });
+</script>

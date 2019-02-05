@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_stok_otomasyanu_1_1_controllers" kind="namespace" language="C#">
+    <compoundname>StokOtomasyanu::Controllers</compoundname>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller" prot="public">StokOtomasyanu::Controllers::AtikController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_controller" prot="public">StokOtomasyanu::Controllers::BolumController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_bolum_zimmet_controller" prot="public">StokOtomasyanu::Controllers::BolumZimmetController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_kategori_controller" prot="public">StokOtomasyanu::Controllers::KategoriController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller" prot="public">StokOtomasyanu::Controllers::KisiZimmetController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_kullanici_controller" prot="public">StokOtomasyanu::Controllers::KullaniciController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_security_controller" prot="public">StokOtomasyanu::Controllers::SecurityController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_tedarikci_controller" prot="public">StokOtomasyanu::Controllers::TedarikciController</innerclass>
+    <innerclass refid="class_stok_otomasyanu_1_1_controllers_1_1_urun_controller" prot="public">StokOtomasyanu::Controllers::UrunController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/AtikController.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

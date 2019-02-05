@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6957a203d844eba86930a7df6450edf" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="StokTakipModel.C__MigrationHistory" Width="1.5" PointX="22.625" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Atiklar" Width="1.5" PointX="13" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Bolum" Width="1.5" PointX="5.875" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.BolumZimmet" Width="1.5" PointX="8.875" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Kategoriler" Width="1.5" PointX="7" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.KisiZimmet" Width="1.5" PointX="14.625" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Kullanicilar" Width="1.5" PointX="12.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Roller" Width="1.5" PointX="16.125" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.sysdiagram" Width="1.5" PointX="23.375" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Tedarikci" Width="1.5" PointX="9" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipModel.Urunler" Width="1.5" PointX="10.875" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="StokTakipModel.FK_Atiklars_Urunlers" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_BolumZimmet_Bolums1" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_Kullanicilars_Bolums" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_Urunlers_Bolums1" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_BolumZimmet_Urunlers1" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_dbo_Urunlers_dbo_Kategorilers_KategoriId" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_KisiZimmet_Kullanicilars" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_KisiZimmet_Urunlers" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_Kullanicilars_Rollers" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipModel.FK_dbo_Urunlers_dbo_Tedarikcis_TedarikciId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

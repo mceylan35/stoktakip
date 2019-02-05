@@ -1,0 +1,111 @@
+﻿@model IEnumerable<StokOtomasyanu.KisiZimmet>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+@if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+{
+    @Html.ActionLink("Yeni", "Yeni", "", htmlAttributes: new {@class = "btn btn-success"})
+}
+</p>
+<div id="Grid">
+    <table class="table">
+        <tr>
+            <th>
+                Durum
+            </th>
+            <th>
+                Kullanıcı Adı
+            </th>
+            <th>
+                Ürün Adı
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @if (item.Durum == true)
+                    {
+                        @Html.Label("Aktif")
+
+                    }
+                    else
+                    {
+                        @Html.Label("Pasif")
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kullanicilar.KullaniciAdi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Urunler.UrunaAdi)
+                </td>
+                <td>
+                @if (User.IsInRole("Admin") || User.IsInRole("Satın Alma Şefi"))
+                {
+                    @Html.ActionLink("Düzenle", "Duzenle", new {id = item.KisiZimmetId}, htmlAttributes: new {@class = "btn btn-warning"})
+
+                    <a href="#" class="btn btn-danger kisizimsil" data-kisizimid="@item.KisiZimmetId">Sil</a>
+                }
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+    @using (Html.BeginForm("Pdf", "KisiZimmet", FormMethod.Post))
+    {
+        <input type="hidden" name="GridHtml" />
+        <input class="btn btn-default" type="submit" id="btnSubmit" value="Rapor" />
+    }
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btnSubmit").click(function () {
+                $("input[name='GridHtml']").val($("#Grid").html());
+            });
+        });
+    </script>
+
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+
+        $(".kisizimsil").click(function () {
+            var sonuc = confirm("Kayıt Silinsin mi?");
+            if (sonuc) {
+                var kisizimid = $(this).data("kisizimid");
+                $.ajax({
+                    type: "POST",
+                    url: "/KisiZimmet/Sil/" + kisizimid,
+                    success: function (parameters) {
+                        alert("Kayıt Silindi");
+                        window.location.replace("/KisiZimmet/Index");
+                    },
+                    error: function () {
+                        alert("kayıt silme sırasında hata oluştu");
+                    }
+
+
+
+                });
+
+            } else {
+                alert("iptal edildi");
+
+            }
+
+        });
+    </script>
+

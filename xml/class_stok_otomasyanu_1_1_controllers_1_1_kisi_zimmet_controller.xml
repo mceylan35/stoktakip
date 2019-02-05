@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::KisiZimmetController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a99c95e2ad47840095cdba6fc85225b60" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.KisiZimmetController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="20" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a6925e5aa1415738699e5b6cc2ef77cd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KisiZimmetController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="23" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1ab8cd74db79c64b23d552b47ed6ce2c5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KisiZimmetController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="34" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1ac65f6128070c4222054a04770b629b7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KisiZimmetController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;KisiZimmetId,KisiId,UrunId,Durum&quot;)] KisiZimmet kisiZimmet)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;KisiZimmetId,KisiId,UrunId,Durum&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_kisi_zimmet" kindref="compound">KisiZimmet</ref></type>
+          <declname>kisiZimmet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="44" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="44" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a7ba47d6191f0d23319ff98bf2c9db1e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KisiZimmetController.Duzenle</definition>
+        <argsstring>(int? id)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="69" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="69" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1aaa6daa5227da82a174b7906acd0e92ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.KisiZimmetController.Duzenle</definition>
+        <argsstring>([Bind(Include=&quot;KisiZimmetId,KisiId,UrunId,Durum&quot;)] KisiZimmet kisiZimmet)</argsstring>
+        <name>Duzenle</name>
+        <param>
+          <attributes>[Bind(Include=&quot;KisiZimmetId,KisiId,UrunId,Durum&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_kisi_zimmet" kindref="compound">KisiZimmet</ref></type>
+          <declname>kisiZimmet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="87" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="87" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a56e2a6fa88f87f7933ef41809393cbc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.KisiZimmetController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="109" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="109" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1acb288e9146b42976ecad051c6765d978" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FileResult</type>
+        <definition>FileResult StokOtomasyanu.Controllers.KisiZimmetController.Pdf</definition>
+        <argsstring>(string GridHtml)</argsstring>
+        <name>Pdf</name>
+        <param>
+          <type>string</type>
+          <declname>GridHtml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KisiZimmetController.cs" line="129" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="129" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>StokOtomasyanu.Controllers.KisiZimmetController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>StokOtomasyanu.Controllers.KisiZimmetController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/KisiZimmetController.cs" line="19" column="1" bodyfile="Controllers/KisiZimmetController.cs" bodystart="18" bodyend="145"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a99c95e2ad47840095cdba6fc85225b60" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a7ba47d6191f0d23319ff98bf2c9db1e0" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1aaa6daa5227da82a174b7906acd0e92ad" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Duzenle</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a6925e5aa1415738699e5b6cc2ef77cd4" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1acb288e9146b42976ecad051c6765d978" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Pdf</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1a56e2a6fa88f87f7933ef41809393cbc1" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1ab8cd74db79c64b23d552b47ed6ce2c5a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_kisi_zimmet_controller_1ac65f6128070c4222054a04770b629b7b" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::KisiZimmetController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

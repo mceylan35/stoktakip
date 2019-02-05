@@ -1,0 +1,101 @@
+﻿
+@model IEnumerable<StokOtomasyanu.Kullanicilar>
+
+@{
+    ViewBag.Title = "Kullanıcılar";
+}
+
+<h2>Index</h2>
+
+<p>
+@if (User.IsInRole("Admin"))
+{
+    @Html.ActionLink("Yeni Ekle", "Yeni", "", htmlAttributes: new {@class = "btn btn-success"})
+}
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Kullanıcı Adı
+        </th>
+
+        <th>
+            İsim
+        </th>
+        <th>
+            Soyisim
+        </th>
+        <th>
+            Bölüm Adı
+        </th>
+        <th>
+            Rol
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KullaniciAdi)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soyad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bolum.BolumAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Roller.RolAdi)
+            </td>
+            <td>
+            @if (User.IsInRole("Admin"))
+            {
+                @Html.ActionLink("Düzenle", "Duzenle", new {id = item.KullaniciId}, htmlAttributes: new {@class = "btn btn-warning"})
+
+           
+                <a href="#" class="btn btn-danger kullanicisil" data-kullaniciid="@item.KullaniciId">Sil</a>
+            }
+            </td>
+        </tr>
+    }
+
+</table>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+
+    $(".kullanicisil").click(function () {
+        var sonuc=confirm("Kayıt Silinsin mi?");
+        if (sonuc) {
+            var kullaniciid = $(this).data("kullaniciid");
+            $.ajax({
+                type: "POST",
+                url: "/Kullanici/Sil/" + kullaniciid,
+                success: function(parameters) {
+                    alert("Kayıt Silindi");
+                    window.location.replace("/Kullanici/Index");
+                },
+                error: function() {
+                    alert("kayıt silme sırasında hata oluştu");
+                }
+
+
+
+            });
+
+        } else {
+            alert("iptal edildi");
+
+        }
+
+    });
+</script>
+
+

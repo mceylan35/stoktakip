@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_kategoriler" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Kategoriler</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kategoriler_1ade20d6adf73298af4dcf31160a558e79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int StokOtomasyanu.Kategoriler.KategoriId</definition>
+        <argsstring></argsstring>
+        <name>KategoriId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kategoriler.cs" line="23" column="1" bodyfile="Kategoriler.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kategoriler_1a417324f2005fc0ce0bdcbd007b454487" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Kategoriler.KategoriAdi</definition>
+        <argsstring></argsstring>
+        <name>KategoriAdi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kategoriler.cs" line="24" column="1" bodyfile="Kategoriler.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_stok_otomasyanu_1_1_kategoriler_1a4eed53fd8d9bbbf46a56b5705eb23140" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_stok_otomasyanu_1_1_urunler" kindref="compound">Urunler</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Urunler&gt; StokOtomasyanu.Kategoriler.Urunlers</definition>
+        <argsstring></argsstring>
+        <name>Urunlers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kategoriler.cs" line="27" column="1" bodyfile="Kategoriler.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_kategoriler_1a6455af2bceca6eea9acb36159ea07c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StokOtomasyanu.Kategoriler.Kategoriler</definition>
+        <argsstring>()</argsstring>
+        <name>Kategoriler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Kategoriler.cs" line="18" column="1" bodyfile="Kategoriler.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Kategoriler.cs" line="16" column="1" bodyfile="Kategoriler.cs" bodystart="15" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_kategoriler_1a417324f2005fc0ce0bdcbd007b454487" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kategoriler</scope><name>KategoriAdi</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kategoriler_1ade20d6adf73298af4dcf31160a558e79" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kategoriler</scope><name>KategoriId</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kategoriler_1a6455af2bceca6eea9acb36159ea07c50" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kategoriler</scope><name>Kategoriler</name></member>
+      <member refid="class_stok_otomasyanu_1_1_kategoriler_1a4eed53fd8d9bbbf46a56b5705eb23140" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Kategoriler</scope><name>Urunlers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

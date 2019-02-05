@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller" kind="class" language="C#" prot="public">
+    <compoundname>StokOtomasyanu::Controllers::AtikController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a54e5441cde4b72a403504f2081ae1ae9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref></type>
+        <definition>StokTakipContext StokOtomasyanu.Controllers.AtikController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_stok_otomasyanu_1_1_stok_takip_context" kindref="compound">StokTakipContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/AtikController.cs" line="20" column="1" bodyfile="Controllers/AtikController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a059d64a06e4075c02657d302c1146af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.AtikController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/AtikController.cs" line="23" column="1" bodyfile="Controllers/AtikController.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1ab65ee3b1c7c0d4676a31345e1cac595a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.AtikController.Yeni</definition>
+        <argsstring>()</argsstring>
+        <name>Yeni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/AtikController.cs" line="30" column="1" bodyfile="Controllers/AtikController.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a7974be2429d26b22cdd8fab179228d18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult StokOtomasyanu.Controllers.AtikController.Yeni</definition>
+        <argsstring>([Bind(Include=&quot;AtikId,UrunId&quot;)] Atiklar atiklar)</argsstring>
+        <name>Yeni</name>
+        <param>
+          <attributes>[Bind(Include=&quot;AtikId,UrunId&quot;)]</attributes>
+          <type><ref refid="class_stok_otomasyanu_1_1_atiklar" kindref="compound">Atiklar</ref></type>
+          <declname>atiklar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/AtikController.cs" line="39" column="1" bodyfile="Controllers/AtikController.cs" bodystart="39" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1ac3a164979324c59da6079e744eaabda7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string StokOtomasyanu.Controllers.AtikController.Sil</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Sil</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/AtikController.cs" line="67" column="1" bodyfile="Controllers/AtikController.cs" bodystart="67" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a666f4692c709ddbfd23bf4677171b82e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FileResult</type>
+        <definition>FileResult StokOtomasyanu.Controllers.AtikController.Pdf</definition>
+        <argsstring>(string GridHtml)</argsstring>
+        <name>Pdf</name>
+        <param>
+          <type>string</type>
+          <declname>GridHtml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/AtikController.cs" line="86" column="1" bodyfile="Controllers/AtikController.cs" bodystart="86" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>StokOtomasyanu.Controllers.AtikController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>StokOtomasyanu.Controllers.AtikController</label>
+        <link refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/AtikController.cs" line="19" column="1" bodyfile="Controllers/AtikController.cs" bodystart="18" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a54e5441cde4b72a403504f2081ae1ae9" prot="private" virt="non-virtual"><scope>StokOtomasyanu::Controllers::AtikController</scope><name>db</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a059d64a06e4075c02657d302c1146af5" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::AtikController</scope><name>Index</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a666f4692c709ddbfd23bf4677171b82e" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::AtikController</scope><name>Pdf</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1ac3a164979324c59da6079e744eaabda7" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::AtikController</scope><name>Sil</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1ab65ee3b1c7c0d4676a31345e1cac595a" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::AtikController</scope><name>Yeni</name></member>
+      <member refid="class_stok_otomasyanu_1_1_controllers_1_1_atik_controller_1a7974be2429d26b22cdd8fab179228d18" prot="public" virt="non-virtual"><scope>StokOtomasyanu::Controllers::AtikController</scope><name>Yeni</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
